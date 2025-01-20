@@ -1,0 +1,117 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [{
+                "className": "org.joget.plugin.enterprise.SpreadSheetGrid",
+                "properties": {
+                    "showRowNumber": "true",
+                    "validateMaxRow": "",
+                    "disabledDelete": "",
+                    "validateMinRow": "",
+                    "errorMessage": "Invalid number of rows",
+                    "validator": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "fixedColumnsLeft": "0",
+                    "label": "Spreadsheet",
+                    "headerSorting": "true",
+                    "storeBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "minSpareRows": "4",
+                    "sortingField": "",
+                    "readonly": "",
+                    "loadBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "disabledAdd": "",
+                    "maxHeight": "",
+                    "options": [
+                        {
+                            "readonly": "",
+                            "format": "",
+                            "width": "",
+                            "regexValidator": "",
+                            "formula": "",
+                            "label": "Number 1",
+                            "formatType": "",
+                            "value": "number1"
+                        },
+                        {
+                            "readonly": "",
+                            "format": "",
+                            "width": "",
+                            "regexValidator": "",
+                            "formula": "",
+                            "label": "Number 2",
+                            "formatType": "",
+                            "value": "number2"
+                        },
+                        {
+                            "readonly": "",
+                            "format": "",
+                            "width": "",
+                            "regexValidator": "",
+                            "formula": "number2 - number1",
+                            "label": "Number 2 - Number 1",
+                            "formatType": "",
+                            "value": "number3"
+                        },
+                        {
+                            "readonly": "",
+                            "format": "",
+                            "width": "",
+                            "regexValidator": "",
+                            "formula": "number2 + number1",
+                            "label": "Number 2 + Number 1",
+                            "formatType": "",
+                            "value": "number4"
+                        }
+                    ],
+                    "customSettings": "",
+                    "id": "spreadsheet"
+                }
+            }],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Spreadsheet",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "spreadsheet",
+            "join": "",
+            "readonlyLabel": ""
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Feature #7 - Spreadsheet",
+        "description": "",
+        "id": "spreadsheet",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "spreadsheet"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "useSession": "false",
+    "showPageSizeSelector": "true",
+    "rowActions": [],
+    "columns": [
+        {
+            "name": "year",
+            "id": "column_1",
+            "label": "Year"
+        },
+        {
+            "name": "great_britain",
+            "id": "column_0",
+            "label": "Great Britain"
+        },
+        {
+            "name": "united_states",
+            "id": "column_2",
+            "label": "United States"
+        },
+        {
+            "name": "germany",
+            "id": "column_3",
+            "label": "Germany"
+        },
+        {
+            "name": "brazil",
+            "id": "column_4",
+            "label": "Brazil"
+        }
+    ],
+    "pageSize": 0,
+    "orderBy": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "checkboxPosition": "left",
+    "name": "List - Sales Over Years",
+    "id": "list_sales_over_years",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "sales_over_years"}
+    },
+    "actions": [],
+    "order": ""
+}

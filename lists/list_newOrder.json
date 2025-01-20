@@ -1,0 +1,122 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "useSession": "false",
+    "showPageSizeSelector": "true",
+    "rowActions": [],
+    "columns": [
+        {
+            "name": "order_id",
+            "id": "column_1",
+            "label": "Order ID"
+        },
+        {
+            "name": "event",
+            "id": "column_2",
+            "label": "Event"
+        },
+        {
+            "name": "price",
+            "id": "column_3",
+            "label": "Price"
+        },
+        {
+            "name": "qty",
+            "id": "column_4",
+            "label": "Qty."
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "earnings",
+            "id": "column_5",
+            "label": "Earnings",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "customer_name",
+            "id": "column_6",
+            "label": "Customer Name",
+            "sortable": "false"
+        },
+        {
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Order Date",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "order_date",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_0",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "order_status",
+            "id": "column_7",
+            "label": "Order Status",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": 0,
+    "orderBy": "",
+    "filters": [
+        {
+            "name": "customer_name",
+            "id": "filter_0",
+            "label": "Customer Name",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            },
+            "filterParamName": "d-2600837-fn_customer_name"
+        },
+        {
+            "name": "order_status",
+            "id": "filter_1",
+            "label": "Order Status",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            },
+            "filterParamName": "d-2600837-fn_order_status"
+        },
+        {
+            "name": "order_date",
+            "id": "filter_4",
+            "label": "Order Date",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            },
+            "filterParamName": "d-2600837-fn_order_date"
+        }
+    ],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "checkboxPosition": "left",
+    "name": "List - New Order",
+    "id": "list_newOrder",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "newOrder"}
+    },
+    "actions": [],
+    "order": ""
+}

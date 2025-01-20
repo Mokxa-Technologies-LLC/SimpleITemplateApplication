@@ -1,0 +1,341 @@
+{
+    "elements": [
+        {
+            "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-font-weight": "700",
+                "style-color": "#344767",
+                "textContent": "General Statistics",
+                "id": "12FF460954174BCCA20AE3FFCB6BA92F",
+                "tagName": "h2",
+                "customId": "general_statistics",
+                "style-padding-left": "20px"
+            }
+        },
+        {
+            "elements": [{
+                "elements": [
+                    {
+                        "elements": [
+                            {
+                                "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                "properties": {
+                                    "template": "<div class=\"card flex-row align-items-center pr-4 pl-4\" \n     style=\"height: 80px; \n            background-color: #f8f9fa; \n            border-radius: 10px; \n            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); \n            display: flex; \n            justify-content: space-between;\">\n    <div class=\"stats-info\" \n         style=\"flex: 1; \n                display: flex; \n                flex-direction: column; \n                justify-content: center;\">\n        <h4 style=\"font-size: 14px; \n                   color: #6c757d; \n                   margin: 0;\n                   font-weight: 700;\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n        <div style=\"font-size: 24px; \n                    font-weight: bold; \n                    color: #212529;\">\n            {{value||1,000}}\n            <span style=\"font-size: 16px; \n                         color: #28a745; \n                         font-weight: 500;\">\n                {{subvalue||12% <i class=\"fas fa-level-up-alt\"><\/i>}}\n            <\/span>\n        <\/div>\n    <\/div>\n    <div class=\"stats-icon d-flex align-items-center justify-content-center\" \n         style=\"width: 50px; \n                height: 50px; \n                background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)); \n                border-radius: 12px; \n                display: flex; \n                align-items: center; \n                justify-content: center;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n<\/div>",
+                                    "attr-data-events-listening": [],
+                                    "color": "#348fe2",
+                                    "style-margin-bottom": "10px",
+                                    "subvalue": "+55%",
+                                    "icon": "<i class=\"fas fa-dollar-sign\" style=\"color:#ffffff\"><\/i>",
+                                    "link": "",
+                                    "id": "769918A8633C4C80BD2D819EDA84B7C9",
+                                    "title": "Today's Money",
+                                    "value": "$53,000",
+                                    "customId": "todays_money_info_tile"
+                                }
+                            },
+                            {
+                                "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                "properties": {
+                                    "template": "<div class=\"card flex-row align-items-center pr-4 pl-4\" \n     style=\"height: 80px; \n            background-color: #f8f9fa; \n            border-radius: 10px; \n            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); \n            display: flex; \n            justify-content: space-between;\">\n    <div class=\"stats-info\" \n         style=\"flex: 1; \n                display: flex; \n                flex-direction: column; \n                justify-content: center;\">\n        <h4 style=\"font-size: 14px; \n                   color: #6c757d; \n                   margin: 0;\n                   font-weight: 700;\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n        <div style=\"font-size: 24px; \n                    font-weight: bold; \n                    color: #212529;\">\n            {{value||1,000}}\n            <span style=\"font-size: 16px; \n                         color: #28a745; \n                         font-weight: 500;\">\n                {{subvalue||12% <i class=\"fas fa-level-up-alt\"><\/i>}}\n            <\/span>\n        <\/div>\n    <\/div>\n    <div class=\"stats-icon d-flex align-items-center justify-content-center\" \n         style=\"width: 50px; \n                height: 50px; \n                background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)); \n                border-radius: 12px; \n                display: flex; \n                align-items: center; \n                justify-content: center;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n<\/div>",
+                                    "attr-data-events-listening": [],
+                                    "color": "#348fe2",
+                                    "subvalue": "+3%",
+                                    "icon": "<i class=\"fas fa-globe-asia\" style=\"color:rgb(255, 255, 255)\"><\/i>",
+                                    "link": "",
+                                    "id": "F52BCDED03E34099FEC7DC84463034B1",
+                                    "title": "Today's Users",
+                                    "value": "$2,300",
+                                    "customId": "todays_users_info_tile"
+                                }
+                            }
+                        ],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {}
+                    },
+                    {
+                        "elements": [
+                            {
+                                "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                "properties": {
+                                    "template": "<div class=\"card flex-row align-items-center pr-4 pl-4\" \n     style=\"height: 80px; \n            background-color: #f8f9fa; \n            border-radius: 10px; \n            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); \n            display: flex; \n            justify-content: space-between;\">\n    <div class=\"stats-info\" \n         style=\"flex: 1; \n                display: flex; \n                flex-direction: column; \n                justify-content: center;\">\n        <h4 style=\"font-size: 14px; \n                   color: #6c757d; \n                   margin: 0;\n                   font-weight: 700;\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n        <div style=\"font-size: 24px; \n                    font-weight: bold; \n                    color: #212529;\">\n            {{value||1,000}}\n            <span style=\"font-size: 16px; \n                         color: #28a745; \n                         font-weight: 500;\">\n                {{subvalue||12% <i class=\"fas fa-level-up-alt\"><\/i>}}\n            <\/span>\n        <\/div>\n    <\/div>\n    <div class=\"stats-icon d-flex align-items-center justify-content-center\" \n         style=\"width: 50px; \n                height: 50px; \n                background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)); \n                border-radius: 12px; \n                display: flex; \n                align-items: center; \n                justify-content: center;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n<\/div>",
+                                    "attr-data-events-listening": [],
+                                    "color": "#348fe2",
+                                    "style-margin-bottom": "10px",
+                                    "subvalue": "+5%",
+                                    "icon": "<i class=\"fas fa-shopping-cart\" style=\"color:rgb(255, 255, 255)\"><\/i>",
+                                    "link": "",
+                                    "id": "A6E1C76ECCB2403A5147E491367765E2",
+                                    "title": "Sales",
+                                    "value": "$103,430",
+                                    "customId": "sales_info_tile"
+                                }
+                            },
+                            {
+                                "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                "properties": {
+                                    "template": "<div class=\"card flex-row align-items-center pr-4 pl-4\" \n     style=\"height: 80px; \n            background-color: #f8f9fa; \n            border-radius: 10px; \n            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); \n            display: flex; \n            justify-content: space-between;\">\n    <div class=\"stats-info\" \n         style=\"flex: 1; \n                display: flex; \n                flex-direction: column; \n                justify-content: center;\">\n        <h4 style=\"font-size: 14px; \n                   color: #6c757d; \n                   margin: 0;\n                   font-weight: 700;\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n        <div style=\"font-size: 24px; \n                    font-weight: bold; \n                    color: #212529;\">\n            {{value||1,000}}\n            <span style=\"font-size: 16px; \n                         color: #28a745; \n                         font-weight: 500;\">\n                {{subvalue||12% <i class=\"fas fa-level-up-alt\"><\/i>}}\n            <\/span>\n        <\/div>\n    <\/div>\n    <div class=\"stats-icon d-flex align-items-center justify-content-center\" \n         style=\"width: 50px; \n                height: 50px; \n                background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)); \n                border-radius: 12px; \n                display: flex; \n                align-items: center; \n                justify-content: center;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n<\/div>",
+                                    "attr-data-events-listening": [],
+                                    "color": "#348fe2",
+                                    "subvalue": "-3%",
+                                    "icon": "<i class=\"fas fa-trophy\" style=\"color:rgb(255, 255, 255)\"><\/i>",
+                                    "link": "",
+                                    "id": "AECC4ACC82A94FE691779F0574FBE887",
+                                    "title": "New Clients",
+                                    "value": "$3,462",
+                                    "customId": "new_clients_info_tile"
+                                }
+                            }
+                        ],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {}
+                    }
+                ],
+                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                "properties": {
+                    "gutter": "5px",
+                    "columns": [
+                        {"style-max-width": ""},
+                        {"style-max-width": ""}
+                    ],
+                    "css-mobile-stack-columns": "true",
+                    "id": "03652F92EB074A5DC47270D0BBD3440F"
+                }
+            }],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-width": "60%",
+                "id": "E276146215C544F0695BB016C5F07696",
+                "customId": "info_tile_container"
+            }
+        },
+        {
+            "elements": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "cacheAllLinks": "",
+                    "customHeader": "<style>\r\n.template_pagelinks {\r\n    display: none;\r\n}\r\ndiv#dashboard_2_sales_by_country_list .dataList .table-wrapper {\r\n    min-height: auto;\r\n    padding-bottom: 0px; \r\n}\r\ndiv#dashboard_2_sales_by_country_list .ph_selector {\r\n    display: none;\r\n}\r\n<\/style>\r\n<h6 style=\"font-weight: 700; color: #000;\">Sales by Country<\/h6>",
+                    "keyName": "",
+                    "customFooter": "",
+                    "label": "Dashboard 2: Sales by Country List",
+                    "enableOffline": "",
+                    "customId": "dashboard_2_sales_by_country_list",
+                    "buttonPosition": "bothLeft",
+                    "datalistId": "dashboard_2_sales_by_country_list",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "cacheListAction": "",
+                    "userviewCacheScope": "",
+                    "rowCount": "",
+                    "id": "62B88CCFDF5642BB1C7503453AF81990",
+                    "style-border-radius": "10px"
+                }
+            }],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-width": "60%",
+                "id": "27ADE405BDCA4F14F163D08687AC2D8C",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [
+                    {
+                        "elements": [
+                            {
+                                "className": "org.joget.marketplace.EChartMenu",
+                                "properties": {
+                                    "xAxisDisplayAS": "time",
+                                    "showLegend": "true",
+                                    "showToolTip": "",
+                                    "enableOffline": "",
+                                    "title": "",
+                                    "libraryVersion": "5.1.2",
+                                    "customId": "sales_by_month_chart",
+                                    "chartHeight": "300px",
+                                    "mapping_x": "date",
+                                    "categoryAxisLabel": "Date",
+                                    "horizontal": "",
+                                    "theme": "dark",
+                                    "id": "B845531E613B4E263E1C434AFEE6DC76",
+                                    "customHeader": "<style>\n    [id^='chart-'] canvas {\n        border-radius: 10px !important;\n    }\n<\/style>\n<script>\n    var data =  #datalist.json.dashboard_2_sales_by_month_list#;\n    \n    var groupedData = data.reduce((acc, curr) => {\n        var date = new Date(curr.Date);\n        if (isNaN(date)) return acc;\n        \n        var month = date.toLocaleString('default', { month: 'short' });\n        if (!acc[month]) acc[month] = [];\n        acc[month].push({ date: curr.Date, sales: parseFloat(curr.Sales) });\n        return acc;\n    }, {});\n    \n    var categories = Object.keys(groupedData);\n    var barData = categories.map(month => groupedData[month].reduce((sum, item) => sum + item.sales, 0));\n    var lineData = categories.map(month => barData[categories.indexOf(month)] / groupedData[month].length);\n    \n    setTimeout(() => {\n        var chartDom = document.querySelector(\"[id^='chart-']\");\n        if (chartDom) {\n            var myChart = echarts.init(chartDom);\n            var option = {\n                backgroundColor: {\n                    type: 'linear',\n                    x: 0,\n                    y: 0,\n                    x2: 1,\n                    y2: 1,\n                    colorStops: [\n                        { offset: 0, color: '#1f1b51' },\n                        { offset: 1, color: '#0d1b33' }\n                    ]\n                },\n                borderRadius: 15,\n                tooltip: {\n                    trigger: 'axis',\n                    axisPointer: { type: 'shadow' },\n                    backgroundColor: 'rgba(0, 0, 0, 0.8)',\n                    borderColor: '#333',\n                    borderWidth: 1,\n                    textStyle: {\n                        color: '#fff',\n                        fontSize: 12,\n                        fontFamily: 'Arial, sans-serif'\n                    },\n                    formatter: function (params) {\n                        const totalSales = params.find(p => p.seriesName === 'Total Sales');\n                        const averageSales = params.find(p => p.seriesName === 'Average Sales');\n                        return `<b>${params[0].name}<\/b><br/>\n                            <span style=\"display: inline-block; width: 10px; height: 10px; background-color: #fff; border-radius: 20%; margin-right: 5px;\"><\/span>\n                            Total Sales: ${totalSales ? totalSales.value : 'N/A'}<br/>\n                            <span style=\"display: inline-block; width: 10px; height: 10px; background-color: #ff9a9e; border-radius: 50%; margin-right: 5px;\"><\/span>\n                            Average Sales: ${averageSales ? averageSales.value.toFixed(2) : 'N/A'}`;\n                    }\n                },\n                legend: {\n                    data: ['Total Sales', 'Average Sales'],\n                    top: 20,\n                    textStyle: { \n                        color: '#fff',\n                        fontSize: 14\n                    }\n                },\n                xAxis: {\n                    type: 'category',\n                    data: categories,\n                    axisLine: { show: false },\n                    axisLabel: { show: false },\n                    axisTick: { show: false }\n                },\n                yAxis: {\n                    type: 'value',\n                    axisLine: { lineStyle: { color: '#fff' } },\n                    axisLabel: { \n                        color: '#fff',\n                        fontSize: 14,\n                    },\n                    splitLine: { show: false },\n                    interval: 200\n                },\n                series: [{\n                    name: 'Total Sales',\n                    type: 'bar',\n                    data: barData,\n                    barWidth: 10,\n                    itemStyle: {\n                        color: \"#fff\",\n                        borderRadius: 5\n                    },\n                    universalTransition: {\n                        enabled: true,\n                        divideShape: 'clone'\n                    }\n                },\n                {\n                    name: 'Average Sales',\n                    type: 'line',\n                    data: lineData,\n                    smooth: true,\n                    lineStyle: { color: '#ff9a9e' },\n                    itemStyle: {\n                        color: '#ff9a9e',\n                        borderColor: '#ff9a9e',\n                        borderWidth: 2\n                    },\n                    symbol: 'circle',\n                    symbolSize: 8\n                }]\n            };\n            \n            // myChart.on('click', function (event) {\n            //     const month = event.name;\n            //     if (!groupedData[month]) return;\n            \n            //     const drilldownData = groupedData[month].map(item => ({\n            //         name: item.date,\n            //         value: item.sales\n            //     }));\n            \n            //     myChart.setOption({\n            //         xAxis: {\n            //             type: 'category',\n            //             data: drilldownData.map(d => d.name),\n            //             axisLine: { lineStyle: { color: '#333' } }\n            //         },\n            //         yAxis: {\n            //             type: 'value',\n            //             axisLine: { lineStyle: { color: '#333' } },\n            //             splitLine: { lineStyle: { type: 'dashed', color: '#ccc' } }\n            //         },\n            //         series: [{\n            //             name: 'Daily Sales',\n            //             type: 'bar',\n            //             id: 'sales',\n            //             data: drilldownData.map(d => d.value),\n            //             barWidth: 20,\n            //             itemStyle: {\n            //                 color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [\n            //                     { offset: 0, color: '#73c0de' },\n            //                     { offset: 1, color: '#3fb1e3' }\n            //                 ]),\n            //                 borderRadius: [4, 4, 0, 0]\n            //             },\n            //             universalTransition: {\n            //                 enabled: true,\n            //                 divideShape: 'clone'\n            //             }\n            //         }],\n            //         tooltip: {\n            //             trigger: 'axis',\n            //             axisPointer: { type: 'shadow' },\n            //             formatter: function (params) {\n            //                 const data = params[0];\n            //                 return `${data.name}<br/>Daily Sales: ${data.value}`;\n            //             }\n            //         },\n            //         legend: {\n            //           show: false\n            //         },\n            //         graphic: [{\n            //             type: 'text',\n            //             left: 50,\n            //             top: 20,\n            //             style: {\n            //                 text: 'Back',\n            //                 fontSize: 18,\n            //                 fill: '#333',\n            //                 cursor: 'pointer'\n            //             },\n            //             onclick: function () {\n            //                 myChart.setOption(option);\n                            \n            //                 window.addEventListener('resize', function() {\n            //                     myChart.resize();\n            //                 });\n            //             }\n            //         }]\n            //     });\n            // });\n            \n            myChart.setOption(option);\n                \n            window.addEventListener('resize', function() {\n                myChart.resize();\n            });\n            \n            window.addEventListener('load', function() {\n                myChart.resize();\n            });\n            \n            window.onload = (event) => {\n                myChart.resize();\n            };\n        } else {\n            console.error(\"The chart container with id starting 'chart-' was not found.\");\n        }\n    }, 1000);\n<\/script>",
+                                    "mapping_values": [{
+                                        "customization": "",
+                                        "showValueLabel": "",
+                                        "value": "sales"
+                                    }],
+                                    "valueAxisLabel": "Value",
+                                    "style-custom": "border-top-left-radius: 10px !important;\r\nborder: none !important;\r\nborder-top-right-radius: 10px !important;\r\nborder-bottom-left-radius: 0px !important;\r\nborder-bottom-right-radius: 0px !important;",
+                                    "smoothLine": "true",
+                                    "keyName": "",
+                                    "label": "Sales by Month Chart",
+                                    "datalistId": "dashboard_2_sales_by_month_list",
+                                    "chartWidth": "100%",
+                                    "customChartFooter": "",
+                                    "userviewCacheDuration": "20",
+                                    "xAxisBoundaryGap": "",
+                                    "showFilter": "",
+                                    "userviewCacheScope": "",
+                                    "chartType": "custom",
+                                    "showTable": "",
+                                    "optionCustomization": "",
+                                    "chartUseAllDataRows": "true"
+                                }
+                            },
+                            {
+                                "className": "org.joget.apps.userview.lib.HtmlPage",
+                                "properties": {
+                                    "userviewCacheDuration": "20",
+                                    "style-padding-bottom": "10px",
+                                    "style-custom": "margin-top: 0px !important;\r\nborder: none !important;\r\nborder-radius: 0px !important;",
+                                    "userviewCacheScope": "",
+                                    "label": "Active Users Text",
+                                    "id": "64EB34A7AFAB416A20D238FE86837093",
+                                    "enableOffline": "",
+                                    "style-padding-top": "10px",
+                                    "customId": "active_users_text",
+                                    "content": "<h6 class=\"MuiTypography-root MuiTypography-h6 css-102jatq\"><span style=\"font-size: 12pt;\">Active Users<\/span><\/h6>\n<div class=\"MuiTypography-root MuiTypography-button css-17vat79\">(<strong>+23%<\/strong>) than last week<\/div>"
+                                }
+                            },
+                            {
+                                "className": "org.joget.apps.userview.lib.DataListMenu",
+                                "properties": {
+                                    "cacheAllLinks": "",
+                                    "customHeader": "<style>\n    .progress {\n        height: 0.1875rem !important;\n    }\n    .progress-bar-striped {\n        height: 0.375rem !important;\n        background-image: unset !important;\n    }\n    .progress-bar {\n        height: 0.375rem !important;\n        border-radius: 0.25rem;\n        position: absolute;\n        transform: translate(0px, -0.09375rem) !important;\n    }\n    .dataList#dataList_dashboard_2_demographics_list .table-wrapper {\n        min-height: 100px;\n        padding-bottom: 0px !important;\n    }\n    div#dataList_dashboard_2_demographics_list {\n        margin-top: 0px !important;\n    }\n<\/style>",
+                                    "style-custom": "margin-top: 0px !important;\r\nborder: none !important;\r\nborder-bottom-left-radius: 10px !important;\r\nborder-bottom-right-radius: 10px !important;\r\nborder-top-left-radius: 0px !important;\r\nborder-top-right-radius: 0px !important;",
+                                    "keyName": "",
+                                    "customFooter": "",
+                                    "label": "Dashboard 2: Demographics List",
+                                    "enableOffline": "",
+                                    "style-padding-top": "10px",
+                                    "customId": "dashboard_2_demographics_list",
+                                    "buttonPosition": "bothLeft",
+                                    "datalistId": "dashboard_2_demographics_list",
+                                    "checkboxPosition": "left",
+                                    "selectionType": "multiple",
+                                    "userviewCacheDuration": "20",
+                                    "style-padding-bottom": "10px",
+                                    "cacheListAction": "",
+                                    "userviewCacheScope": "",
+                                    "rowCount": "",
+                                    "id": "DE377B82CCC4425A3C1A0DFA9FCE403A"
+                                }
+                            }
+                        ],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {
+                            "style-flex": "0 0 40%",
+                            "style-max-width": "40%"
+                        }
+                    },
+                    {
+                        "elements": [
+                            {
+                                "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+                                "properties": {
+                                    "attr-data-events-listening": [],
+                                    "textContent": "<h6 style=\"font-size: 1rem; line-height: 1.625; font-weight: 500; letter-spacing: 0.0075em; color: #344767;\">Sales Overview<\/h6>\n<div style=\"display: flex; justify-content: flex-start; align-items: center; font-size: 0.875rem; line-height: 1.5; letter-spacing: 0.02857em;\"><span class=\"material-symbols-outlined\" style=\"color: #82d616; width: 1em; height: 1em; font-weight: bold; font-size: 1.125rem;\">arrow_upward<\/span> &nbsp; <strong>4% more <\/strong>&nbsp;in 2021<\/div>",
+                                    "id": "2C2698436F49401168C5950039831F37",
+                                    "customId": "sales_overview_html"
+                                }
+                            },
+                            {
+                                "className": "org.joget.marketplace.EChartMenu",
+                                "properties": {
+                                    "xAxisDisplayAS": "category",
+                                    "showLegend": "true",
+                                    "showToolTip": "",
+                                    "enableOffline": "",
+                                    "title": "",
+                                    "libraryVersion": "5.1.2",
+                                    "customId": "monthly_trend_chart",
+                                    "chartHeight": "393px",
+                                    "mapping_x": "month",
+                                    "categoryAxisLabel": "Category",
+                                    "theme": "",
+                                    "id": "B26421294A1B483F66EBF3E2F7EFB462",
+                                    "customHeader": "<style>\n    [id^='chart-'] {\n        min-width: 100% !important;\n        max-width: 100% !important;\n    }\n<\/style>",
+                                    "mapping_values": [
+                                        {
+                                            "customization": "{\n    \"name\": \"Mobile Apps\",\n    \"type\": \"line\",\n    \"smooth\": \"true\",\n    \"showSymbol\": false,\n    \"symbolSize\": 8, \n    \"lineStyle\": {\n        \"width\": 3,\n        \"color\": \"#59bce1\",\n        \"shadowColor\": \"rgba(0, 0, 0, 0.2)\",\n        \"shadowBlur\": 10\n    },\n    \"areaStyle\": {\n        \"color\": \"rgba(0, 123, 255, 0.2)\"\n    },\n    \"emphasis\": {\n        \"focus\": \"series\",\n        \"itemStyle\": {\n            \"color\": \"#59bce1\",\n            \"borderColor\": \"#fff\",\n            \"borderWidth\": 2\n        }\n    }\n}",
+                                            "showValueLabel": "",
+                                            "value": "mobile_apps"
+                                        },
+                                        {
+                                            "customization": "{\n    \"name\": \"Websites\",\n    \"type\": \"line\",\n    \"smooth\": true,\n    \"showSymbol\": false,\n    \"symbolSize\": 8, \n    \"lineStyle\": {\n        \"width\": 3,\n        \"color\": \"#28283C\",\n        \"shadowColor\": \"rgba(0, 0, 0, 0.2)\",\n        \"shadowBlur\": 10\n    },\n    \"areaStyle\": {\n        \"color\": \"rgba(40, 40, 60, 0.2)\"\n    },\n    \"emphasis\": {\n        \"focus\": \"series\",\n        \"itemStyle\": {\n            \"color\": \"#28283C\",\n            \"borderColor\": \"#fff\",\n            \"borderWidth\": 2\n        }\n    }\n}",
+                                            "showValueLabel": "",
+                                            "value": "websites"
+                                        }
+                                    ],
+                                    "valueAxisLabel": "Value",
+                                    "style-custom": "min-width: 100%;\nborder: none;\nborder-bottom-left-radius: 10px !important;\nborder-bottom-right-radius: 10px !important;",
+                                    "smoothLine": "true",
+                                    "keyName": "",
+                                    "label": "Monthly Trend Chart",
+                                    "datalistId": "dashboard_2_monthly_trend_list",
+                                    "chartWidth": "90%",
+                                    "customChartFooter": "",
+                                    "userviewCacheDuration": "20",
+                                    "xAxisBoundaryGap": "",
+                                    "showFilter": "",
+                                    "userviewCacheScope": "",
+                                    "chartType": "line",
+                                    "showTable": "",
+                                    "optionCustomization": "yAxis: {\n    type: 'value',\n    axisLabel: {\n        color: '#b3b9be',\n        fontFamily: 'Poppins',\n        fontSize: 12\n    }\n},\nxAxis: {\n    type: 'category',\n    color: '#b3b9be',\n    axisLabel: {\n        fontFamily: 'Poppins',\n        color: '#b3b9be',\n        fontSize: 12\n    },\n    axisLine: {\n        lineStyle: {\n            color: '#b3b9be',\n            type: 'dashed',\n            width: 1,\n            dashOffset: 5\n        }\n    },\n    data: ['Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],\n    axisTick: { show: false },\n    splitLine: { \n        lineStyle: {\n            color: '#b3b9be',\n            type: 'dashed',\n            width: 1\n        }\n    }\n},\nlegend: {\n    top: '5%',\n    itemWidth: 25,\n    itemHeight: 14,\n    textStyle: {\n        color: '#333',\n        fontFamily: 'Poppins',\n        fontSize: 12\n    }\n},\ntooltip: {\n    trigger: 'axis',\n    axisPointer: { type: 'shadow' },\n    backgroundColor: 'rgba(0, 0, 0, 0.8)',\n    borderColor: '#333',\n    borderWidth: 1,\n    textStyle: {\n        color: '#fff',\n        fontSize: 12,\n        fontFamily: 'Arial, sans-serif'\n    },\n    formatter: function (params) {\n        var mobileApps = params.find(p => p.seriesName === 'Mobile Apps');\n        var websites = params.find(p => p.seriesName === 'Websites');\n        return `<b>${params[0].name}<\/b><br/>\n            <span style=\"display: inline-block; width: 10px; height: 10px; background-color: #fff; border: 2px solid #59bce1; margin-right: 5px;\"><\/span>\n            Mobile Apps: ${mobileApps ? mobileApps.value : 'N/A'}<br/>\n            <span style=\"display: inline-block; width: 10px; height: 10px; background-color: #fff; border: 2px solid #28283C; margin-right: 5px;\"><\/span>\n            Websites: ${websites ? websites.value : 'N/A'}`;\n    }\n}",
+                                    "chartUseAllDataRows": "true"
+                                }
+                            }
+                        ],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {
+                            "style-flex": "0 0 60%",
+                            "style-max-width": "60%"
+                        }
+                    }
+                ],
+                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                "properties": {
+                    "attr-data-events-listening": [],
+                    "gutter": "5px",
+                    "columns": [
+                        {
+                            "style-mobile-max-width": "",
+                            "style-max-width": "40%",
+                            "style-tablet-max-width": ""
+                        },
+                        {
+                            "style-mobile-max-width": "",
+                            "style-max-width": "60%",
+                            "style-tablet-max-width": ""
+                        }
+                    ],
+                    "css-mobile-stack-columns": "true",
+                    "id": "7E9491C5D1A7412442C18D2D8AF5EA7F",
+                    "customId": ""
+                }
+            }],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "id": "2C23E2CE32B84B5109E1178D5656EC66",
+                "customId": "charts_container"
+            }
+        },
+        {"className": "menu-component"},
+        {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<html>\r\n<head>\r\n    <style>\r\n        #globe_container {\r\n            width: 100%;\r\n            height: 100%;\r\n            position: fixed;\r\n            top: 100px;\r\n            z-index: -1;\r\n            left: 490px;\r\n        }\r\n    <\/style>\r\n    <script src=\"https://unpkg.com/globe.gl\"><\/script>\r\n<\/head>\r\n<body>\r\n    <div id=\"globe_container\"><\/div>\r\n    <script>\r\n        const globe = Globe()\r\n            .backgroundColor('#f9f9f9')\r\n            .showAtmosphere(true)\r\n            .atmosphereColor('#87ceeb')\r\n            .atmosphereAltitude(0.25)\r\n            .hexPolygonsData([])\r\n            .hexPolygonResolution(3)\r\n            .hexPolygonMargin(0.4)\r\n            .hexPolygonColor(() => '#9ca0b5')\r\n            .onGlobeReady(() => {\r\n            console.log('Auto-Rotating Globe is ready!');\r\n        });\r\n    \r\n        globe(document.getElementById('globe_container'));\r\n    \r\n        fetch('https://raw.githubusercontent.com/datasets/geo-countries/main/data/countries.geojson')\r\n            .then((res) => res.json())\r\n            .then((countries) => {\r\n                console.log('Country data loaded:', countries.features.length);\r\n                globe.hexPolygonsData(countries.features); // Set the GeoJSON data\r\n            })\r\n            .catch((err) => console.error('Failed to load GeoJSON data:', err));\r\n    \r\n        const autoRotateSpeed = 0.2;\r\n        let isInteracting = false;\r\n    \r\n        function spinGlobe() {\r\n            if (!isInteracting) {\r\n                const currentPOV = globe.pointOfView();\r\n                globe.pointOfView({ lat: currentPOV.lat, lng: currentPOV.lng + autoRotateSpeed }, 50);\r\n            }\r\n            requestAnimationFrame(spinGlobe);\r\n        }\r\n        spinGlobe();\r\n    \r\n        let isDragging = false;\r\n        let previousMouseX, previousMouseY;\r\n    \r\n        document.addEventListener('mousedown', (event) => {\r\n            isDragging = true;\r\n            isInteracting = true;\r\n            previousMouseX = event.clientX;\r\n            previousMouseY = event.clientY;\r\n            event.preventDefault();\r\n        });\r\n    \r\n        document.addEventListener('mousemove', (event) => {\r\n            if (isDragging) {\r\n                const deltaX = event.clientX - previousMouseX;\r\n                const deltaY = event.clientY - previousMouseY;\r\n        \r\n                globe.pointOfView({\r\n                    lat: globe.pointOfView().lat + deltaY * 0.1,\r\n                    lng: globe.pointOfView().lng - deltaX * 0.1,\r\n                });\r\n        \r\n                previousMouseX = event.clientX;\r\n                previousMouseY = event.clientY;\r\n            }\r\n        });\r\n    \r\n        document.addEventListener('mouseup', () => {\r\n            isDragging = false;\r\n            isInteracting = false;\r\n        });\r\n    \r\n        document.addEventListener('mouseleave', () => {\r\n            isDragging = false;\r\n            isInteracting = false;\r\n        });\r\n    <\/script>\r\n<\/body>\r\n<\/html>",
+                "id": "4520DD6927124EFAB4E45E23C8321FC0",
+                "customId": "globe_block"
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-42E22CB1C2DB4590C49EC901B6D4F717"}
+}

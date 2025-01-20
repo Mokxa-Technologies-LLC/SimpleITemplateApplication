@@ -1,0 +1,16 @@
+<appDefinition>
+   <appId>simple1Template</appId>
+   <id>simple1Template</id>
+   <version></version>
+   <name>Simple 1 Template</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+   <license>EG7vI0pxpjKAwpaFh5BMQpXbEmMwgGrw9gegnSUzAM4zZ5AukOD4jxuqmWZqwQJC5adOSzv/Tak=</license>
+</appDefinition>

@@ -1,0 +1,31 @@
+{
+    "useSession": "false",
+    "showPageSizeSelector": "true",
+    "rowActions": [],
+    "columns": [
+        {
+            "name": "money",
+            "id": "column_0",
+            "label": "Money"
+        },
+        {
+            "name": "year",
+            "id": "column_1",
+            "label": "Year"
+        }
+    ],
+    "pageSize": 0,
+    "orderBy": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "checkboxPosition": "left",
+    "name": "List - MT #8 - Money Over Years",
+    "id": "list_moneyOverYears",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "moneyOverYears"}
+    },
+    "actions": [],
+    "order": ""
+}

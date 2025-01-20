@@ -1,0 +1,261 @@
+{
+    "elements": [{
+        "elements": [
+            {
+                "elements": [
+                    {
+                        "elements": [{
+                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                            "properties": {
+                                "template": "<!--{sampleWidth: '250px', tags: 'light-bg'}-->\n<div class=\"card text-center py-3\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"stats-info\">\n        <h4 style=\"font-size: 12px;\n                   margin: 5px 0;\n                   font-weight: normal;\n                   color: rgba(0,0,0,.7);\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n        <p style=\"font-size: 28px; \n                  font-weight: 600; \n                  margin-bottom: 0;\">\n            {{value||3,291,922}}\n        <\/p>\n    <\/div>\n<\/div>\n<!---->",
+                                "attr-data-events-listening": [],
+                                "color": "#348fe2",
+                                "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                "icon": "<i class=\"fas fa-globe\"><\/i>",
+                                "link": "",
+                                "bgImg": "",
+                                "title": "Ticket Revenues Over Time",
+                                "customId": "",
+                                "reload": "",
+                                "style-text-align": "left",
+                                "bgColor": "",
+                                "id": "5E0A102ABA7E484E27E31C652DE94AF4",
+                                "value": "$4500",
+                                "height": ""
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {
+                            "style-flex": "0 0 33%",
+                            "style-max-width": "33%"
+                        }
+                    },
+                    {
+                        "elements": [{
+                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                            "properties": {
+                                "template": "<!--{sampleWidth: '250px', tags: 'light-bg'}-->\n<div class=\"card text-center py-3\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"stats-info\">\n        <h4 style=\"font-size: 12px;\n                   margin: 5px 0;\n                   font-weight: normal;\n                   color: rgba(0,0,0,.7);\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n        <p style=\"font-size: 28px; \n                  font-weight: 600; \n                  margin-bottom: 0;\">\n            {{value||3,291,922}}\n        <\/p>\n    <\/div>\n<\/div>\n<!---->",
+                                "attr-data-events-listening": [],
+                                "color": "#348fe2",
+                                "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                "icon": "<i class=\"fas fa-globe\"><\/i>",
+                                "link": "",
+                                "bgImg": "",
+                                "title": "7D Tickets Sold",
+                                "customId": "",
+                                "reload": "",
+                                "style-text-align": "left",
+                                "bgColor": "",
+                                "id": "B6BAC8F5EF074E3A0EFC30821F987D37",
+                                "value": "210",
+                                "height": ""
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {
+                            "style-flex": "0 0 33%",
+                            "style-max-width": "33%"
+                        }
+                    },
+                    {
+                        "elements": [{
+                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                            "properties": {
+                                "template": "<!--{sampleWidth: '250px', tags: 'light-bg'}-->\n<div class=\"card text-center py-3\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"stats-info\">\n        <h4 style=\"font-size: 12px;\n                   margin: 5px 0;\n                   font-weight: normal;\n                   color: rgba(0,0,0,.7);\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n        <p style=\"font-size: 28px; \n                  font-weight: 600; \n                  margin-bottom: 0;\">\n            {{value||3,291,922}}\n        <\/p>\n    <\/div>\n<\/div>\n<!---->",
+                                "attr-data-events-listening": [],
+                                "color": "#348fe2",
+                                "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                "icon": "<i class=\"fas fa-globe\"><\/i>",
+                                "link": "",
+                                "bgImg": "",
+                                "title": "Tickets Sold by Event",
+                                "customId": "",
+                                "reload": "",
+                                "style-text-align": "left",
+                                "bgColor": "",
+                                "id": "D368F3B304E4433695B7EC98CABD74E5",
+                                "value": "1417",
+                                "height": ""
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {
+                            "style-flex": "0 0 33%",
+                            "style-max-width": "33%"
+                        }
+                    }
+                ],
+                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                "properties": {
+                    "attr-data-events-listening": [],
+                    "gutter": "5px",
+                    "columns": [
+                        {
+                            "style-mobile-max-width": "",
+                            "style-max-width": "33%",
+                            "style-tablet-max-width": ""
+                        },
+                        {
+                            "style-mobile-max-width": "",
+                            "style-max-width": "33%",
+                            "style-tablet-max-width": ""
+                        },
+                        {
+                            "style-mobile-max-width": "",
+                            "style-max-width": "33%",
+                            "style-tablet-max-width": ""
+                        }
+                    ],
+                    "css-mobile-stack-columns": "true",
+                    "id": "B8553BBFCBB74A42E7C6C5DBCD5CD4D1",
+                    "customId": ""
+                }
+            },
+            {
+                "elements": [
+                    {
+                        "elements": [{
+                            "className": "org.joget.marketplace.ChartJs",
+                            "properties": {
+                                "showLegend": "",
+                                "showToolTip": "",
+                                "enableOffline": "",
+                                "title": "Sales Over Years",
+                                "customId": "sales_over_years",
+                                "chartHeight": "300px",
+                                "mapping_x": "year",
+                                "categoryAxisLabel": "Year",
+                                "enableAnimation": "",
+                                "id": "A964CEE4498D434780142E451054886B",
+                                "customHeader": "",
+                                "mapping_values": [
+                                    {
+                                        "customization": "",
+                                        "showValueLabel": "",
+                                        "value": "great_britain"
+                                    },
+                                    {
+                                        "customization": "",
+                                        "showValueLabel": "",
+                                        "value": "germany"
+                                    }
+                                ],
+                                "buttons": "",
+                                "valueAxisLabel": "Sales",
+                                "keyName": "",
+                                "label": "Sales Over Years",
+                                "datalistId": "list_sales_over_years",
+                                "chartWidth": "90%",
+                                "customChartFooter": "",
+                                "userviewCacheDuration": "20",
+                                "showFilter": "",
+                                "userviewCacheScope": "",
+                                "chartType": "line",
+                                "showTable": "",
+                                "chartUseAllDataRows": ""
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {
+                            "style-flex": "0 0 66.6%",
+                            "style-max-width": "66.6%"
+                        }
+                    },
+                    {
+                        "elements": [{
+                            "className": "org.joget.marketplace.ChartJs",
+                            "properties": {
+                                "showLegend": "",
+                                "showToolTip": "",
+                                "enableOffline": "",
+                                "title": "Tickets Sold by Event",
+                                "customId": "tickets_sold_by_event",
+                                "chartHeight": "300px",
+                                "mapping_x": "name",
+                                "categoryAxisLabel": "Category",
+                                "id": "E15D606DBA9B4B5B9B7B1E22192E050B",
+                                "customHeader": "",
+                                "mapping_values": [{
+                                    "customization": "",
+                                    "showValueLabel": "",
+                                    "value": "count"
+                                }],
+                                "buttons": "",
+                                "valueAxisLabel": "Value",
+                                "keyName": "",
+                                "label": "Tickets Sold by Event",
+                                "opaqueChart": "",
+                                "datalistId": "list_ticketsSoldByEvent",
+                                "chartWidth": "90%",
+                                "customChartFooter": "",
+                                "userviewCacheDuration": "20",
+                                "showFilter": "",
+                                "userviewCacheScope": "",
+                                "chartType": "bar",
+                                "showTable": "",
+                                "chartUseAllDataRows": ""
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {
+                            "style-flex": "0 0 33.3%",
+                            "style-max-width": "33.3%"
+                        }
+                    }
+                ],
+                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                "properties": {
+                    "attr-data-events-listening": [],
+                    "gutter": "5px",
+                    "columns": [
+                        {
+                            "style-mobile-max-width": "",
+                            "style-max-width": "66.6%",
+                            "style-tablet-max-width": ""
+                        },
+                        {
+                            "style-mobile-max-width": "",
+                            "style-max-width": "33.3%",
+                            "style-tablet-max-width": ""
+                        }
+                    ],
+                    "css-mobile-stack-columns": "true",
+                    "id": "183A8D2431FD42E22C8714A7166A2602",
+                    "customId": ""
+                }
+            },
+            {
+                "elements": [
+                    {
+                        "className": "org.joget.apps.userview.lib.DataListMenu",
+                        "properties": {
+                            "cacheAllLinks": "",
+                            "customHeader": "",
+                            "keyName": "",
+                            "customFooter": "",
+                            "label": "List",
+                            "enableOffline": "",
+                            "customId": "",
+                            "buttonPosition": "bothLeft",
+                            "datalistId": "list_newOrder",
+                            "checkboxPosition": "no",
+                            "selectionType": "single",
+                            "userviewCacheDuration": "20",
+                            "cacheListAction": "",
+                            "userviewCacheScope": "",
+                            "rowCount": "",
+                            "id": "96611BA028E44EB884F868BDF2FD4EBC"
+                        }
+                    },
+                    {"className": "menu-component"}
+                ],
+                "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+                "properties": {"id": "779A74982E7F452605475016DC4B8D8D"}
+            }
+        ],
+        "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+        "properties": {"id": "5378E91234214AC09C236FB0206CF779"}
+    }],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-848EC9C0E4924E3B0A6367E2140A765E"}
+}

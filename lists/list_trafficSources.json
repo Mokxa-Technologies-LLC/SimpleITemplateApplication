@@ -1,0 +1,87 @@
+{
+    "useSession": "false",
+    "showPageSizeSelector": "true",
+    "rowActions": [],
+    "columns": [
+        {
+            "name": "source",
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "options": [
+                        {
+                            "label": "Google",
+                            "value": "Google",
+                            "grouping": ""
+                        },
+                        {
+                            "label": "Direct",
+                            "value": "Direct",
+                            "grouping": ""
+                        },
+                        {
+                            "label": "X",
+                            "value": "X",
+                            "grouping": ""
+                        },
+                        {
+                            "label": "Github",
+                            "value": "Github",
+                            "grouping": ""
+                        },
+                        {
+                            "label": "DuckDuckGo",
+                            "value": "DuckDuckGo",
+                            "grouping": ""
+                        },
+                        {
+                            "label": "Facebook",
+                            "value": "Facebook",
+                            "grouping": ""
+                        }
+                    ]
+                }
+            },
+            "id": "column_0",
+            "label": "Source"
+        },
+        {
+            "name": "traffic_sources",
+            "id": "column_1",
+            "label": "Traffic Sources"
+        },
+        {
+            "name": "sessions",
+            "id": "column_2",
+            "label": "Sessions"
+        },
+        {
+            "name": "bounce_rate",
+            "id": "column_3",
+            "label": "Bounce Rate"
+        },
+        {
+            "name": "avg_session_duration",
+            "id": "column_4",
+            "label": "Avg. Session Duration"
+        }
+    ],
+    "pageSize": 0,
+    "orderBy": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "checkboxPosition": "left",
+    "name": "List - Traffic Sources",
+    "id": "list_trafficSources",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "trafficSources"}
+    },
+    "actions": [],
+    "order": ""
+}

@@ -1,0 +1,130 @@
+{
+    "template": {
+        "className": "org.joget.apps.datalist.lib.SimpleCardTemplate",
+        "properties": {
+            "image": "",
+            "inlineLabel": "true",
+            "footerMsg": "true",
+            "cardAction": "",
+            "columns_desktop": "col-lg-3",
+            "columns_mobile": "col-12",
+            "columns_tablet": "col-md-6"
+        }
+    },
+    "considerFilterWhenGetTotal": "",
+    "showPageSizeSelector": "true",
+    "responsiveMode": "",
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "style-background-color": "#735DFF",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "rules": [],
+            "label": "Place Bid",
+            "href": "Place Bid",
+            "confirmation": "",
+            "link-css-display-type": "btn btn-sm btn-primary",
+            "datalist_type": "row_action",
+            "style-display": "block",
+            "target": "_self",
+            "header_label": ""
+        }
+    }],
+    "columns": [
+        {
+            "name": "project_budget",
+            "id": "column_3",
+            "label": "Project Budget",
+            "datalist_type": "column"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "created_by",
+            "id": "column_2",
+            "label": "Created By",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "showDataWhenFilterSet": "",
+    "card-style-color": "#FFFFFF",
+    "checkboxPosition": "left",
+    "card-style-background-size": "cover",
+    "column_footer": [{
+        "hidden": "false",
+        "renderHtml": "",
+        "style-color": "#FFFFFF",
+        "format": {
+            "className": "org.joget.plugin.enterprise.DateFormatter",
+            "properties": {
+                "dateStoreInUTC": "",
+                "dataFormat": "yyyy-MM-dd",
+                "displayFormat": ""
+            }
+        },
+        "label": "Expected Date of Delivery",
+        "sortable": "false",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "name": "expected_date_of_delivery",
+        "width": "",
+        "headerAlignment": "",
+        "action": {
+            "className": "",
+            "properties": {}
+        },
+        "style": "",
+        "id": "column_1",
+        "alignment": ""
+    }],
+    "id": "list_newRFP",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "joins": [],
+            "aggregateField": [],
+            "formDefId": "newRFP",
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "groupBy": "",
+            "functionColumns": []
+        }
+    },
+    "order": "",
+    "useSession": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "hidePageSize": "",
+    "card-style-background-image": "#appResource.usgs-hoS3dzgpHzw-unsplash.jpg#",
+    "column_title": [{
+        "hidden": "false",
+        "renderHtml": "",
+        "format": {
+            "className": "",
+            "properties": {}
+        },
+        "label": "Project Name",
+        "sortable": "false",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "name": "project_name",
+        "width": "",
+        "headerAlignment": "",
+        "action": {
+            "className": "",
+            "properties": {}
+        },
+        "style": "",
+        "id": "column_0",
+        "alignment": ""
+    }],
+    "name": "List - MT #10 - New RFP",
+    "actions": []
+}

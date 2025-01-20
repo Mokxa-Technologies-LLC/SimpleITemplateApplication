@@ -1,0 +1,165 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "considerFilterWhenGetTotal": "",
+    "showPageSizeSelector": "true",
+    "responsiveMode": "",
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "org.joget.apps.datalist.lib.ImageFormatter",
+                "properties": {
+                    "imagefullsize": "",
+                    "formDefId": "vendors",
+                    "width": "60px",
+                    "imageSrc": "form",
+                    "defaultImage": "",
+                    "height": "60px"
+                }
+            },
+            "label": "Vendor Profile",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "vendor_profile",
+            "width": "",
+            "headerAlignment": "dataListAlignCenter",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_7",
+            "alignment": "dataListAlignCenter"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Vendor Name",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "vendor_name",
+            "width": "",
+            "headerAlignment": "dataListAlignCenter",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_6",
+            "alignment": "dataListAlignCenter"
+        },
+        {
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Company",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "company",
+            "width": "",
+            "headerAlignment": "dataListAlignCenter",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_2",
+            "alignment": "dataListAlignCenter"
+        },
+        {
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "# of Bids",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "number_of_bids",
+            "width": "",
+            "headerAlignment": "dataListAlignCenter",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": "dataListAlignCenter"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Revenue",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "revenue",
+            "width": "",
+            "headerAlignment": "dataListAlignCenter",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_8",
+            "alignment": "dataListAlignCenter"
+        }
+    ],
+    "cardCollapsible": "",
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "showDataWhenFilterSet": "",
+    "disableResponsive": "",
+    "checkboxPosition": "left",
+    "cardCollapseByDefault": "",
+    "id": "list_vendors",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "joins": [],
+            "aggregateField": [],
+            "formDefId": "vendors",
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "groupBy": "",
+            "functionColumns": []
+        }
+    },
+    "order": "",
+    "useSession": "",
+    "draggabletable": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "hidePageSize": "",
+    "name": "List - MT #9 - Vendors",
+    "rowActionsMode": "",
+    "showhidecolumns": "",
+    "actions": []
+}

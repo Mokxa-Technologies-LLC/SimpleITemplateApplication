@@ -1,0 +1,129 @@
+{
+    "template": {
+        "className": "org.joget.plugin.enterprise.SimpleListTemplate",
+        "properties": {"actionsStyle": ""}
+    },
+    "considerFilterWhenGetTotal": "",
+    "useSession": "",
+    "showPageSizeSelector": "true",
+    "responsiveMode": "",
+    "rowActions": [],
+    "columns": [{
+        "hidden": "false",
+        "renderHtml": "",
+        "format": {
+            "className": "",
+            "properties": {}
+        },
+        "style-font-size": "12px",
+        "label": "Description",
+        "sortable": "false",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "style-text-align": "left",
+        "name": "description",
+        "width": "",
+        "headerAlignment": "",
+        "action": {
+            "className": "",
+            "properties": {}
+        },
+        "style": "",
+        "id": "column_0",
+        "alignment": "dataListAlignLeft"
+    }],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
+    "showDataWhenFilterSet": "",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "hidePageSize": "",
+    "checkboxPosition": "left",
+    "column_image": [{
+        "filterable": true,
+        "hidden": "false",
+        "renderHtml": "",
+        "format": {
+            "className": "org.joget.apps.datalist.lib.ImageFormatter",
+            "properties": {
+                "imagefullsize": "",
+                "formDefId": "news",
+                "width": "60px",
+                "imageSrc": "form",
+                "defaultImage": "",
+                "height": "60px"
+            }
+        },
+        "label": "Image",
+        "sortable": "false",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "name": "image",
+        "width": "",
+        "headerAlignment": "",
+        "action": {
+            "className": "",
+            "properties": {}
+        },
+        "style": "",
+        "id": "column_4",
+        "alignment": ""
+    }],
+    "column_title": [{
+        "hidden": "false",
+        "renderHtml": "",
+        "format": {
+            "className": "",
+            "properties": {}
+        },
+        "label": "Title",
+        "sortable": "false",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "style-text-align": "left",
+        "name": "title",
+        "width": "",
+        "headerAlignment": "",
+        "action": {
+            "className": "",
+            "properties": {}
+        },
+        "style": "",
+        "id": "column_1",
+        "alignment": "dataListAlignLeft"
+    }],
+    "name": "List - MT #14 - News",
+    "id": "list_news",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "news"}
+    },
+    "actions": [],
+    "column_value": [{
+        "hidden": "false",
+        "renderHtml": "",
+        "format": {
+            "className": "",
+            "properties": {}
+        },
+        "style-font-size": "10px",
+        "label": "Date",
+        "sortable": "false",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "style-text-align": "justify",
+        "name": "date",
+        "width": "",
+        "headerAlignment": "",
+        "action": {
+            "className": "",
+            "properties": {}
+        },
+        "style": "",
+        "id": "column_2",
+        "alignment": "dataListAlignRight"
+    }],
+    "order": ""
+}

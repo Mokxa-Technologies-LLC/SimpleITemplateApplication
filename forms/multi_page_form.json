@@ -1,0 +1,249 @@
+{
+    "elements": [
+        {
+            "elements": [{
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "requiredSanitize": "",
+                            "autoPopulate": "",
+                            "label": "",
+                            "id": "field2",
+                            "value": "<p>The below multi-page form has css which will force the headers to be in one line only and also mark each previous step as green indicating it is complete. The active subform page will be highlighted in orange.<\/p>"
+                        }
+                    },
+                    {
+                        "className": "org.joget.plugin.enterprise.MultiPagedForm",
+                        "properties": {
+                            "prevButtonlabel": "Prev",
+                            "css": ".page-nav-panel ul {\n            display: flex;\n            flex-direction: row;\n        }\n        li.nav_item.before::before {\n            background-color: #28A745;\n            color: #FFF !important;\n        }\n        .multiPagedForm.wizard .page-nav-panel .nav_item.current::before {\n            background: #E68710 !important;\n        }\n        li.nav_item.after::before {\n            background: #C1C6D1;\n            color: #000 !important;\n        }\n        .btn:disabled {\n            display: none !important;\n        }",
+                            "nextButtonlabel": "Next",
+                            "partiallyStore": "",
+                            "onlyAllowSubmitOnLastPage": "",
+                            "id": "multi_page_form",
+                            "numberOfPage": {
+                                "className": "8",
+                                "properties": {
+                                    "page4_formDefId": "multi_page_form_4",
+                                    "page5_readonly": "",
+                                    "page7_label": "Subform 7",
+                                    "page2_readonly": "",
+                                    "page3_subFormParentId": "",
+                                    "page7_readonlyLabel": "",
+                                    "page6_subFormParentId": "",
+                                    "page8_readonly": "",
+                                    "page1_parentSubFormId": "page1_key",
+                                    "page2_readonlyLabel": "",
+                                    "page8_formDefId": "multi_page_form_8",
+                                    "page3_formDefId": "multi_page_form_3",
+                                    "page3_label": "Subform 3",
+                                    "page3_readonly": "",
+                                    "page1_formDefId": "multi_page_form_1",
+                                    "page8_validate": "true",
+                                    "page1_validate": "true",
+                                    "page3_readonlyLabel": "",
+                                    "page6_label": "Subform 6",
+                                    "page7_formDefId": "multi_page_form_7",
+                                    "page8_readonlyLabel": "",
+                                    "page4_readonly": "",
+                                    "page2_parentSubFormId": "page2_key",
+                                    "page5_parentSubFormId": "page5_key",
+                                    "page8_parentSubFormId": "page8_key",
+                                    "page2_validate": "true",
+                                    "page7_validate": "true",
+                                    "page3_validate": "true",
+                                    "page8_subFormParentId": "",
+                                    "page6_validate": "true",
+                                    "page5_readonlyLabel": "",
+                                    "page5_subFormParentId": "",
+                                    "page6_formDefId": "multi_page_form_6",
+                                    "page2_label": "Subform 2",
+                                    "page6_parentSubFormId": "page6_key",
+                                    "page3_parentSubFormId": "page3_key",
+                                    "page2_subFormParentId": "",
+                                    "page4_readonlyLabel": "",
+                                    "page5_label": "Subform 5",
+                                    "page6_readonly": "",
+                                    "page1_subFormParentId": "",
+                                    "page6_readonlyLabel": "",
+                                    "page4_subFormParentId": "",
+                                    "page7_parentSubFormId": "page7_key",
+                                    "page4_parentSubFormId": "page4_key",
+                                    "page8_label": "Subform 8",
+                                    "page5_formDefId": "multi_page_form_5",
+                                    "page4_validate": "true",
+                                    "page5_validate": "true",
+                                    "page1_readonly": "",
+                                    "page1_label": "Subform 1",
+                                    "page1_readonlyLabel": "",
+                                    "page4_label": "Subform 4",
+                                    "page7_subFormParentId": "",
+                                    "page2_formDefId": "multi_page_form_2",
+                                    "page7_readonly": ""
+                                }
+                            },
+                            "displayMode": "wizard",
+                            "ajaxMode": ""
+                        }
+                    }
+                ],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Multi Page Form",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "multi_page_form",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "requiredSanitize": "",
+                            "autoPopulate": "",
+                            "label": "",
+                            "id": "field2",
+                            "value": "<p>The below multi-page form is in the traditional tab format with no additional css.<\/p>"
+                        }
+                    },
+                    {
+                        "className": "org.joget.plugin.enterprise.MultiPagedForm",
+                        "properties": {
+                            "prevButtonlabel": "Prev",
+                            "css": "",
+                            "nextButtonlabel": "Next",
+                            "partiallyStore": "",
+                            "onlyAllowSubmitOnLastPage": "",
+                            "id": "multi_page_form_tabs",
+                            "numberOfPage": {
+                                "className": "8",
+                                "properties": {
+                                    "page4_formDefId": "multi_page_form_4",
+                                    "page5_readonly": "",
+                                    "page7_label": "Subform 7",
+                                    "page2_readonly": "",
+                                    "page3_subFormParentId": "",
+                                    "page7_readonlyLabel": "",
+                                    "page6_subFormParentId": "",
+                                    "page8_readonly": "",
+                                    "page1_parentSubFormId": "page1_key",
+                                    "page2_readonlyLabel": "",
+                                    "page8_formDefId": "multi_page_form_8",
+                                    "page3_formDefId": "multi_page_form_3",
+                                    "page3_label": "Subform 3",
+                                    "page3_readonly": "",
+                                    "page1_formDefId": "multi_page_form_1",
+                                    "page8_validate": "true",
+                                    "page1_validate": "true",
+                                    "page3_readonlyLabel": "",
+                                    "page6_label": "Subform 6",
+                                    "page7_formDefId": "multi_page_form_7",
+                                    "page8_readonlyLabel": "",
+                                    "page4_readonly": "",
+                                    "page2_parentSubFormId": "page2_key",
+                                    "page5_parentSubFormId": "page5_key",
+                                    "page8_parentSubFormId": "page8_key",
+                                    "page2_validate": "true",
+                                    "page7_validate": "true",
+                                    "page3_validate": "true",
+                                    "page8_subFormParentId": "",
+                                    "page6_validate": "true",
+                                    "page5_readonlyLabel": "",
+                                    "page5_subFormParentId": "",
+                                    "page6_formDefId": "multi_page_form_6",
+                                    "page2_label": "Subform 2",
+                                    "page6_parentSubFormId": "page6_key",
+                                    "page3_parentSubFormId": "page3_key",
+                                    "page2_subFormParentId": "",
+                                    "page4_readonlyLabel": "",
+                                    "page5_label": "Subform 5",
+                                    "page6_readonly": "",
+                                    "page1_subFormParentId": "",
+                                    "page6_readonlyLabel": "",
+                                    "page4_subFormParentId": "",
+                                    "page7_parentSubFormId": "page7_key",
+                                    "page4_parentSubFormId": "page4_key",
+                                    "page8_label": "Subform 8",
+                                    "page5_formDefId": "multi_page_form_5",
+                                    "page4_validate": "true",
+                                    "page5_validate": "true",
+                                    "page1_readonly": "",
+                                    "page1_label": "Subform 1",
+                                    "page1_readonlyLabel": "",
+                                    "page4_label": "Subform 4",
+                                    "page7_subFormParentId": "",
+                                    "page2_formDefId": "multi_page_form_2",
+                                    "page7_readonly": ""
+                                }
+                            },
+                            "displayMode": "tab",
+                            "ajaxMode": ""
+                        }
+                    }
+                ],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Multi Page Form",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "section2",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        }
+    ],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Form Feature #2 - Multi-Page Form",
+        "description": "",
+        "id": "multi_page_form",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "multi_page_form"
+    }
+}

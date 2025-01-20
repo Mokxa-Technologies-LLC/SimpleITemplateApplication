@@ -1,0 +1,176 @@
+{
+    "template": {
+        "className": "org.joget.apps.datalist.lib.AppIconTemplate",
+        "properties": {
+            "splitListByColumn": "",
+            "enableSuperApp": "",
+            "columns_desktop": "col-lg-4",
+            "columns_mobile": "col-4",
+            "columns_tablet": "col-md-4"
+        }
+    },
+    "considerFilterWhenGetTotal": "",
+    "useSession": "",
+    "showPageSizeSelector": "true",
+    "responsiveMode": "",
+    "rowActions": [],
+    "columns": [
+        {
+            "hidden": "false",
+            "style-border-bottom-width": "1px",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Description",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "style-padding-top": "20px",
+            "style-padding-bottom": "20px",
+            "style-border-style": "solid",
+            "name": "description",
+            "width": "",
+            "headerAlignment": "",
+            "style-border-left-width": "0px",
+            "style-border-right-width": "0px",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": "",
+            "style-border-top-width": "0px"
+        },
+        {
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "style-float": "right",
+            "label": "Location",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "style-padding-top": "10px",
+            "name": "location",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_4",
+            "alignment": ""
+        },
+        {
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Price",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "style-padding-top": "10px",
+            "style-text-align": "left",
+            "name": "price",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
+    "showDataWhenFilterSet": "",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "hidePageSize": "true",
+    "checkboxPosition": "left",
+    "column_image": [{
+        "hidden": "false",
+        "style-custom": "        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n",
+        "renderHtml": "",
+        "format": {
+            "className": "org.joget.apps.datalist.lib.ImageFormatter",
+            "properties": {
+                "imagefullsize": "",
+                "formDefId": "available_bookings",
+                "width": "100%",
+                "imageSrc": "form",
+                "defaultImage": "",
+                "height": "50%"
+            }
+        },
+        "label": "Photo",
+        "sortable": "false",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "name": "photo",
+        "width": "",
+        "headerAlignment": "",
+        "action": {
+            "className": "",
+            "properties": {}
+        },
+        "style": "",
+        "id": "column_0",
+        "alignment": ""
+    }],
+    "column_title": [{
+        "hidden": "false",
+        "renderHtml": "",
+        "format": {
+            "className": "",
+            "properties": {}
+        },
+        "label": "Title",
+        "sortable": "false",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "style-padding-top": "20px",
+        "name": "title",
+        "width": "",
+        "headerAlignment": "",
+        "action": {
+            "className": "",
+            "properties": {}
+        },
+        "style": "",
+        "id": "column_2",
+        "alignment": ""
+    }],
+    "card-style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        background: #fff;\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */\r\n        min-height: 450px; /* Increase the minimum height */\r\n",
+    "name": "List - Available Bookings",
+    "id": "list_available_bookings",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "joins": [],
+            "aggregateField": [],
+            "formDefId": "available_bookings",
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "groupBy": "",
+            "functionColumns": []
+        }
+    },
+    "actions": [],
+    "order": ""
+}

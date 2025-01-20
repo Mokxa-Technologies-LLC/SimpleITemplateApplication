@@ -1,0 +1,355 @@
+{
+    "elements": [
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.marketplace.BootstrapStepsDisplayField",
+                    "properties": {
+                        "iconBackgroundColorComplete": "#0DA9EF",
+                        "connector": "arrow",
+                        "iconBackgroundColor": "#F5F5F5",
+                        "iconColor": "#FFFFFF",
+                        "options": [
+                            {
+                                "numbering": "1",
+                                "icon": "pe-7s-portfolio",
+                                "label": "New",
+                                "value": "new"
+                            },
+                            {
+                                "numbering": "2",
+                                "icon": "",
+                                "label": "In Progress",
+                                "value": "In Progress"
+                            },
+                            {
+                                "numbering": "3",
+                                "icon": "",
+                                "label": "Pending Review",
+                                "value": "Pending Review"
+                            },
+                            {
+                                "numbering": "4",
+                                "icon": "",
+                                "label": "Approved",
+                                "value": "Approved"
+                            }
+                        ],
+                        "scale": "1.5",
+                        "statusFieldId": "status",
+                        "theme": "1",
+                        "id": "bootstrap_formatter_Arrows"
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Bootstrap Formatter (Arrows)",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "section1",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.marketplace.BootstrapStepsDisplayField",
+                    "properties": {
+                        "iconBackgroundColorComplete": "#0DA9EF",
+                        "connector": "line",
+                        "iconBackgroundColor": "#F5F5F5",
+                        "iconColor": "#FFFFFF",
+                        "options": [
+                            {
+                                "numbering": "1",
+                                "icon": "pe-7s-portfolio",
+                                "label": "New",
+                                "value": "new"
+                            },
+                            {
+                                "numbering": "2",
+                                "icon": "",
+                                "label": "In Progress",
+                                "value": "In Progress"
+                            },
+                            {
+                                "numbering": "3",
+                                "icon": "",
+                                "label": "Pending Review",
+                                "value": "Pending Review"
+                            },
+                            {
+                                "numbering": "4",
+                                "icon": "",
+                                "label": "Approved",
+                                "value": "Approved"
+                            }
+                        ],
+                        "scale": "1.5",
+                        "statusFieldId": "status",
+                        "theme": "1",
+                        "id": "bootstrap_formatter_line"
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Bootstrap Formatter (Line)",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "section3",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.marketplace.BootstrapStepsDisplayField",
+                    "properties": {
+                        "iconBackgroundColorComplete": "#0DA9EF",
+                        "connector": "line",
+                        "iconBackgroundColor": "#F5F5F5",
+                        "iconColor": "#FFFFFF",
+                        "options": [
+                            {
+                                "numbering": "1",
+                                "icon": "pe-7s-portfolio",
+                                "label": "New",
+                                "value": "new"
+                            },
+                            {
+                                "numbering": "2",
+                                "icon": "pe-7s-portfolio",
+                                "label": "In Progress",
+                                "value": "In Progress"
+                            },
+                            {
+                                "numbering": "3",
+                                "icon": "pe-7s-portfolio",
+                                "label": "Pending Review",
+                                "value": "Pending Review"
+                            },
+                            {
+                                "numbering": "4",
+                                "icon": "pe-7s-portfolio",
+                                "label": "Approved",
+                                "value": "Approved"
+                            }
+                        ],
+                        "scale": "1",
+                        "statusFieldId": "status",
+                        "theme": "2",
+                        "id": "bootstrap_formatter_icons_with_line"
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Bootstrap Formatter (Icons with line)",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "section4",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.marketplace.BootstrapStepsDisplayField",
+                    "properties": {
+                        "iconBackgroundColorComplete": "#0DA9EF",
+                        "connector": "arrow",
+                        "iconBackgroundColor": "#F5F5F5",
+                        "iconColor": "#FFFFFF",
+                        "options": [
+                            {
+                                "numbering": "1",
+                                "icon": "pe-7s-portfolio",
+                                "label": "New",
+                                "value": "new"
+                            },
+                            {
+                                "numbering": "2",
+                                "icon": "pe-7s-portfolio",
+                                "label": "In Progress",
+                                "value": "In Progress"
+                            },
+                            {
+                                "numbering": "3",
+                                "icon": "pe-7s-portfolio",
+                                "label": "Pending Review",
+                                "value": "Pending Review"
+                            },
+                            {
+                                "numbering": "4",
+                                "icon": "pe-7s-portfolio",
+                                "label": "Approved",
+                                "value": "Approved"
+                            }
+                        ],
+                        "scale": "1",
+                        "statusFieldId": "status",
+                        "theme": "2",
+                        "id": "bootstrap_formatter_icons_with_arrow"
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Bootstrap Formatter (Icons with arrow)",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "section5",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "autoPopulate": "",
+                        "label": "",
+                        "id": "field2",
+                        "value": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <style>\r\n        .userflow-container {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            padding: 40px 0;\r\n            position: relative;\r\n            width: 100%;\r\n        }\r\n        .userflow-container::before {\r\n            content: '';\r\n            position: absolute;\r\n            top: 70px;\r\n            left: 10%;\r\n            right: 10%;\r\n            height: 4px;\r\n            background-color: white;\r\n        }\r\n        .step {\r\n            text-align: center;\r\n            position: relative;\r\n            z-index: 1;\r\n            flex: 1;\r\n        }\r\n        .step .icon {\r\n            width: 60px;\r\n            height: 60px;\r\n            background-color: #C1C6D1;\r\n            color: black;\r\n            border-radius: 50%;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            margin: 0 auto 10px;\r\n            font-size: 22px !important;\r\n            transition: background-color 0.3s;\r\n        }\r\n        .step .icon i {\r\n            font-size: 22px !important;\r\n        }\r\n        .step p {\r\n            margin: 0;\r\n            font-size: 14px;\r\n            color: #FFF;\r\n        }\r\n        .step.highlighted .icon {\r\n            border: 4px #E68710 solid;\r\n            background-color: #FFF;\r\n        }\r\n        #license_application_steps {\r\n            display: flex !important;\r\n            justify-content: center !important;\r\n            background: #023E8A;\r\n            border-radius: 10px;\r\n            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\r\n        }\r\n        .page-nav-panel ul {\r\n            display: flex;\r\n            flex-direction: row;\r\n        }\r\n        li.nav_item.before::before {\r\n            background-color: #28A745;\r\n            color: #FFF !important;\r\n        }\r\n        .multiPagedForm.wizard .page-nav-panel .nav_item.current::before {\r\n            background: #E68710 !important;\r\n        }\r\n        li.nav_item.after::before {\r\n            background: #C1C6D1;\r\n            color: #000 !important;\r\n        }\r\n        .btn:disabled {\r\n            display: none !important;\r\n        }\r\n    <\/style>\r\n<\/head>\r\n<body>\r\n    <div class=\"userflow-container\" id=\"license_application_steps\">\r\n        <div id=\"step0\" class=\"step highlighted\">\r\n            <div class=\"icon\"><i class=\"fas fa-clipboard-list\"><\/i><\/div>\r\n            <p>License Application<\/p>\r\n        <\/div>\r\n        <div id=\"step1\" class=\"step\">\r\n            <div class=\"icon\"><i class=\"fas fa-eye\"><\/i><\/div>\r\n            <p>Preview & Submit<\/p>\r\n        <\/div>\r\n        <div id=\"step2\" class=\"step\">\r\n            <div class=\"icon\"><i class=\"fas fa-wallet\"><\/i><\/div>\r\n            <p>Fee Payment<\/p>\r\n        <\/div>\r\n        <div id=\"step3\" class=\"step\">\r\n            <div class=\"icon\"><i class=\"zmdi zmdi-check-circle\"><\/i><\/div>\r\n            <p>Confirmation Receipt<\/p>\r\n        <\/div>\r\n    <\/div>\r\n<\/body>\r\n<\/html>"
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Custom HTML",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "section2",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        }
+    ],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "noPermissionMessage": "",
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "name": "Form Feature #1 - Progress Bar",
+        "description": "",
+        "postProcessorRunOn": "create",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "id": "bootstrapFormatter",
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "tableName": "bootstrap"
+    }
+}

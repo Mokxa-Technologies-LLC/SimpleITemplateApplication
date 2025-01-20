@@ -1,0 +1,36 @@
+{
+    "useSession": "false",
+    "showPageSizeSelector": "true",
+    "rowActions": [],
+    "columns": [
+        {
+            "name": "2023",
+            "id": "column_0",
+            "label": "2023"
+        },
+        {
+            "name": "country",
+            "id": "column_1",
+            "label": "Country"
+        },
+        {
+            "name": "2022",
+            "id": "column_2",
+            "label": "2022"
+        }
+    ],
+    "pageSize": 0,
+    "orderBy": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "checkboxPosition": "left",
+    "name": "List - MT #13 - Conversion Rates",
+    "id": "list_conversionRates",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "conversionRates"}
+    },
+    "actions": [],
+    "order": ""
+}

@@ -1,0 +1,431 @@
+{
+    "elements": [
+        {"className": "menu-component"},
+        {
+            "elements": [
+                {
+                    "elements": [{
+                        "elements": [
+                            {
+                                "elements": [{
+                                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                                    "properties": {
+                                        "cacheAllLinks": "",
+                                        "customHeader": "<h5>Sales By Country<\/h5>",
+                                        "style-border-bottom-width": "0px",
+                                        "keyName": "",
+                                        "customFooter": "<style>\n    .dataList .pagebanner {\n    visibility: hidden;\n}\n\n.dataList .exportlinks {\n    visibility: hidden;\n}\n.dataList .table-wrapper {\npadding-bottom:0px;    \n}\n}\n<\/style>",
+                                        "style-font-size": "12px",
+                                        "label": "Sales By Country",
+                                        "enableOffline": "",
+                                        "customId": "sales_by_country",
+                                        "buttonPosition": "bothLeft",
+                                        "datalistId": "list_sales_by_country",
+                                        "checkboxPosition": "no",
+                                        "selectionType": "multiple",
+                                        "userviewCacheDuration": "20",
+                                        "cacheListAction": "",
+                                        "userviewCacheScope": "",
+                                        "style-border-left-width": "0px",
+                                        "style-border-right-width": "0px",
+                                        "rowCount": "",
+                                        "id": "23A3AD8BC2394F0066BB94D8227A6E20",
+                                        "style-border-top-width": "0px"
+                                    }
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                "properties": {
+                                    "style-flex": "0 0 60%",
+                                    "style-max-width": "60%"
+                                }
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+                                        "properties": {
+                                            "attr-data-events-listening": [],
+                                            "textContent": "<link href=\"https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css\" rel=\"stylesheet\">\n<script src=\"https://cdn.jsdelivr.net/npm/jsvectormap\"><\/script>\n<script src=\"https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js\"><\/script>\n<div id=\"map-container\">\n<div id=\"world-map\" style=\"width: 100%; height: 400px;\"><\/div>\n<\/div>\n<style>\n.jvm-zoom-btn.jvm-zoomin {\n    visibility:hidden;\n}\n.jvm-zoom-btn.jvm-zoomout {\n    visibility:hidden;\n}\n    #map-container {\n        padding-top: 100px; \n        margin: 0 auto; /* Center the container */\n        /*background: #fff;*/\n        /*border-radius: 15px;*/\n        /*box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);*/\n        overflow: hidden; /* Prevent content from spilling out */\n    }\n\n    #world-map {\n        width: 100%; /* Ensure the map takes full width */\n        height: 400px; /* Adjust as per your desired height */\n        margin: 0; /* Remove any default margin */\n    }\n<\/style>\n<script>\n    // document.addEventListener(\"DOMContentLoaded\", function () {\n       $( document ).ready(function() {\n\n        // Initialize the map\n        const map = new jsVectorMap({\n            selector: \"#world-map\",\n            map: \"world\",\n            markers: [\n                {coords: [37.0902, -95.7129], name: \"USA\"},\n                {coords: [51.1657, 10.4515], name: \"Germany\"},\n                {coords: [55.3781, -3.4360], name: \"Great Britain\"},\n                {coords: [-14.2350, -51.9253], name: \"Brazil\"}\n            ],\n            markerStyle: {\n                initial: {\n                    fill: \"#FF5733\",\n                    stroke: \"#000\",\n                    r: 7, // Radius of the marker\n                }\n            },\n            backgroundColor: \"#FFFFFF\"\n        });\n    });\n<\/script>",
+                                            "id": "D8EF02B75C824BEC0CC2F11462C9C7A5",
+                                            "customId": ""
+                                        }
+                                    },
+                                    {
+                                        "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+                                        "properties": {
+                                            "attr-data-events-listening": [],
+                                            "textContent": "<br>\n<br>\n<br>",
+                                            "id": "638A3720909F4A656EFE5A6796ADA9BC",
+                                            "customId": ""
+                                        }
+                                    }
+                                ],
+                                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                "properties": {
+                                    "style-flex": "0 0 40%",
+                                    "style-max-width": "40%"
+                                }
+                            }
+                        ],
+                        "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                        "properties": {
+                            "attr-data-events-listening": [],
+                            "style-background-color": "#FFFFFF",
+                            "gutter": "5px",
+                            "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        background: #fff;\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                            "columns": [
+                                {
+                                    "style-mobile-max-width": "",
+                                    "style-max-width": "60%",
+                                    "style-tablet-max-width": ""
+                                },
+                                {
+                                    "style-mobile-max-width": "",
+                                    "style-max-width": "40%",
+                                    "style-tablet-max-width": ""
+                                }
+                            ],
+                            "css-mobile-stack-columns": "true",
+                            "id": "4C54782048F1482C2A9B49A28B634701",
+                            "customId": ""
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+                    "properties": {"id": "1C91AA87AB294A670D23F96D714256D5"}
+                },
+                {
+                    "elements": [
+                        {
+                            "elements": [{
+                                "elements": [{
+                                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                    "properties": {
+                                        "template": "<!--{sampleWidth: '320px', tags: 'light-bg icon bar'}-->\n<div class=\"card pt-2 b0\"\n     style=\"height:{{height}};\n            overflow: hidden;\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"px-2\">\n        <em class=\"float-right pr-3\"\n            style=\"font-size: 24px;\n                   color:{{color||#23b7e5}}\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/em>\n        <div class=\"h2 mt-0\">\n            {{value||3,291,922}}\n        <\/div>\n        <div class=\"text-uppercase\">\n            {{title||TOTAL VISITORS}}\n        <\/div>\n    <\/div>\n    <div id=\"chart-{{id}}\"\n         style=\"color:#000\"\n         data-chart-type=\"bar\" \n         data-chart-custom=\"{{chartConfig}}\"\n         data-chart-height=\"80\"\n         data-chart-color=\"{{color||#23b7e5}}\"\n         data-chart-labels=\"{{chartLabels||Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec}}\"\n         data-chart-values=\"{{chartData||[{data:[25, 66, 41, 89, 63, 25, 44, 12, 36, 9, 54, 33]}]}}\">\n    <\/div>\n    <script>\n        $(function(){\n            // Remove the code below if you prefer the card height to adjust based on the chart's dimensions\n            //and card does not have fixed height or style\n            if ($(\"#chart-{{id}}\").parent().is('[class*=\"col\"]') && $(\"#chart-{{id}}\").parent().width() * 10/16 > $(\"#chart-{{id}}\").parent().parent().height()){\n                $(\"#chart-{{id}}\").parent().css({'height':'100%'});\n                $(\"#chart-{{id}}\").attr('data-chart-height', '100%');\n            }\n            //End of Code\n            loadScript(\"{{contextPath}}/js/apexcharts-sparkline.js\", function(){\n                $(\"#chart-{{id}}\").acSparkline();\n            });\n        });\n    <\/script>\n<\/div>    \n<!---->",
+                                        "attr-data-events-listening": [],
+                                        "color": "#348FE2",
+                                        "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        background: #fff;\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                        "icon": "<i class=\"fas fa-street-view\"><\/i>",
+                                        "link": "",
+                                        "bgImg": "",
+                                        "title": "Website Views",
+                                        "customId": "weekly_views",
+                                        "chartData": "[{data: [25, 66, 41, 89, 63, 25, 12]}]",
+                                        "chartConfig": "",
+                                        "reload": "",
+                                        "bgColor": "",
+                                        "id": "5CC2EDF2BB594860477C8E5C6B89B47F",
+                                        "value": "1,026",
+                                        "chartLabels": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+                                        "height": ""
+                                    }
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+                                "properties": {"id": "6368096B22364AB93A4FC69C8C686E03"}
+                            }],
+                            "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                            "properties": {
+                                "style-flex": "0 0 33%",
+                                "style-max-width": "33%"
+                            }
+                        },
+                        {
+                            "elements": [{
+                                "elements": [{
+                                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                    "properties": {
+                                        "template": "<!--{sampleWidth: '320px', tags: 'light-bg icon area'}-->\n<div class=\"card pt-2 b0\"\n     style=\"height:{{height}};\n            overflow: hidden;\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"px-2\">\n        <em class=\"float-right pr-3\"\n            style=\"font-size: 24px;\n                   color:{{color||#23b7e5}}\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/em>\n        <div class=\"h2 mt-0\">\n            {{value||3,291,922}}\n        <\/div>\n        <div class=\"text-uppercase\">\n            {{title||TOTAL VISITORS}}\n        <\/div>\n    <\/div>\n    <div id=\"chart-{{id}}\"\n         style=\"color:#000\"\n         data-chart-type=\"area\" \n         data-chart-custom=\"{{chartConfig}}\"\n         data-chart-height=\"80\"\n         data-chart-color=\"{{color||#23b7e5}}\"\n         data-chart-labels=\"{{chartLabels||Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec}}\"\n         data-chart-values=\"{{chartData||[{data:[25, 66, 41, 89, 63, 25, 44, 12, 36, 9, 54, 33]}]}}\">\n    <\/div>\n    <script>\n        $(function(){\n            // Remove the code below if you prefer the card height to adjust based on the chart's dimensions\n            //and card does not have fixed height or style\n            if ($(\"#chart-{{id}}\").parent().is('[class*=\"col\"]') && $(\"#chart-{{id}}\").parent().width() * 10/16 > $(\"#chart-{{id}}\").parent().parent().height()){\n                $(\"#chart-{{id}}\").parent().css({'height':'100%'});\n                $(\"#chart-{{id}}\").attr('data-chart-height', '100%');\n            }\n            //End of Code\n            loadScript(\"{{contextPath}}/js/apexcharts-sparkline.js\", function(){\n                $(\"#chart-{{id}}\").acSparkline();\n            });\n        });\n    <\/script>\n<\/div>     \n<!---->",
+                                        "attr-data-events-listening": [],
+                                        "color": "#61B765",
+                                        "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        background: #fff;\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                        "icon": "<i class=\"fas fa-dollar-sign\"><\/i>",
+                                        "link": "",
+                                        "bgImg": "",
+                                        "title": "Daily Sales",
+                                        "customId": "daily_sales",
+                                        "chartData": "[{data: [25, 66, 41, 89, 63]}]",
+                                        "chartConfig": "",
+                                        "reload": "",
+                                        "bgColor": "",
+                                        "id": "62A12E69E09248AB3DF9B6CF68873CB3",
+                                        "value": "254",
+                                        "chartLabels": "Apr, May, Jun, Jul, Aug",
+                                        "height": ""
+                                    }
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+                                "properties": {"id": "3B4BD2DE37694588E4F1BC0D1841A17D"}
+                            }],
+                            "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                            "properties": {
+                                "style-flex": "0 0 33%",
+                                "style-max-width": "33%"
+                            }
+                        },
+                        {
+                            "elements": [{
+                                "elements": [{
+                                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                    "properties": {
+                                        "template": "<!--{sampleWidth: '320px', tags: 'dark-bg icon area'}-->\n<div class=\"card pt-2 b0\"\n     style=\"height:{{height}};\n            color: #ffffff;\n            overflow: hidden;\n            border: 0;\n            background-color:{{color||#23b7e5}};\n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top:0;\n                left:0;\n                right:0;\n                bottom:0;\n                content:'';\n                background-color: rgba(255,255,255,0.2)\">\n    <\/div>\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"px-2\">\n        <em class=\"float-right pr-3\"\n            style=\"font-size: 24px;\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/em>\n        <div class=\"h2 mt-0\">\n            {{value||3,291,922}}\n        <\/div>\n        <div class=\"text-uppercase\">\n            {{title||TOTAL VISITORS}}\n        <\/div>\n    <\/div>\n    <div id=\"chart-{{id}}\"\n         style=\"color:#000\"\n         data-chart-type=\"area\" \n         data-chart-custom=\"{{chartConfig}}\"\n         data-chart-height=\"80\"\n         data-chart-color=\"{{color||#23b7e5}}\"\n         data-chart-labels=\"{{chartLabels||Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec}}\"\n         data-chart-values=\"{{chartData||[{data:[25, 66, 41, 89, 63, 25, 44, 12, 36, 9, 54, 33]}]}}\">\n    <\/div>\n    <script>\n        $(function(){\n            // Remove the code below if you prefer the card height to adjust based on the chart's dimensions\n            //and card does not have fixed height or style\n            if ($(\"#chart-{{id}}\").parent().is('[class*=\"col\"]') && $(\"#chart-{{id}}\").parent().width() * 10/16 > $(\"#chart-{{id}}\").parent().parent().height()){\n                $(\"#chart-{{id}}\").parent().css({'height':'100%'});\n                $(\"#chart-{{id}}\").attr('data-chart-height', '100%');\n            }\n            //End of Code\n            loadScript(\"{{contextPath}}/js/apexcharts-sparkline.js\", function(){\n                $(\"#chart-{{id}}\").acSparkline();\n            });\n        });\n    <\/script>\n<\/div>  \n<!---->",
+                                        "attr-data-events-listening": [],
+                                        "color": "#38383E",
+                                        "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                        "icon": "<i class=\"fas fa-tasks\"><\/i>",
+                                        "link": "",
+                                        "bgImg": "",
+                                        "title": "Completed Tasks",
+                                        "customId": "completed_tasks",
+                                        "chartData": "[{data: [25, 12, 34, 63, 75]}]",
+                                        "chartConfig": "",
+                                        "reload": "",
+                                        "id": "7CDD1F66F82A46760340F9691C4A1CDE",
+                                        "value": "4,523",
+                                        "chartLabels": "Apr, May, Jun, Jul, Aug",
+                                        "height": ""
+                                    }
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+                                "properties": {"id": "60839E0C40474A8F88ED4F7ADE4DCEBC"}
+                            }],
+                            "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                            "properties": {
+                                "style-flex": "0 0 33%",
+                                "style-max-width": "33%"
+                            }
+                        }
+                    ],
+                    "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                    "properties": {
+                        "attr-data-events-listening": [],
+                        "gutter": "5px",
+                        "columns": [
+                            {
+                                "style-mobile-max-width": "",
+                                "style-max-width": "33%",
+                                "style-tablet-max-width": ""
+                            },
+                            {
+                                "style-mobile-max-width": "",
+                                "style-max-width": "33%",
+                                "style-tablet-max-width": ""
+                            },
+                            {
+                                "style-mobile-max-width": "",
+                                "style-max-width": "33%",
+                                "style-tablet-max-width": ""
+                            }
+                        ],
+                        "css-mobile-stack-columns": "true",
+                        "id": "0A18E83BBF484CC171B30F7629DFEA03",
+                        "customId": ""
+                    }
+                },
+                {
+                    "elements": [{
+                        "elements": [
+                            {
+                                "elements": [{
+                                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                    "properties": {
+                                        "template": "<!--{sampleWidth: '250px', tags: 'light-bg tag header pie'}-->\n<div class=\"card\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div class=\"card-header\" \n         style=\"background-color:transparent;\">\n        <div class=\"row\">\n            <div class=\"header-title col-8\">\n                {{header||VISITORS}}\n            <\/div>\n            <div class=\"header-tag col-4 text-right pl-0\">\n                <span class=\"badge\" \n                      style=\"background-color:{{tagColor||#1ab394}}; \n                             color:#fff;\">\n                    {{headerTag||Daily}}\n                <\/span>\n                {{reload}}\n            <\/div>\n        <\/div>    \n    <\/div>\n    <div class=\"card-body py-0 d-flex align-items-center\">\n        <div class=\"stats-icon col-4 py-4 pr-0 d-flex align-items-center\">\n            <div id=\"chart-{{id}}\" \n                 data-chart-type=\"pie\" \n                 data-chart-custom=\"{{chartConfig}}\" \n                 data-chart-config=\"{theme:{monochrome: {enabled: true,shadeTo: 'light', color: '{{color||#563d7c}}', shadeIntensity: 0.6}}}\"  \n                 data-chart-labels=\"{{chartLabels||Item 1,Item 2,Item 3,Item 4}}\"\n                 data-chart-values=\"{{chartData||[25, 66, 41, 89]}}\">\n            <\/div>\n        <\/div>\n        <div class=\"stats-info py-3 pr-3 pl-2 col-8\">\n            <div class=\"d-flex flex-row align-items-center justify-content-between\" \n                 style=\"font-size: 24px; \n                        margin-bottom: 10px;\">\n                <span>\n                    {{value||1,000}}\n                <\/span>\n                <span class=\"pl-2\" \n                      style=\"font-size:12px; \n                             color:{{color||#563d7c}};\">\n                    {{subvalue||12% <i class=\"fas fa-level-up-alt\"><\/i>}}\n                <\/span>\n            <\/div>\n            <h4 style=\"font-size: 12px;\n                       color: rgba(0,0,0,.6);\n                       margin: 5px 0;\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n        <\/div>            \n    <\/div>\n    <script>\n        $(function(){\n            // Remove the code below if you prefer the card height to adjust based on the chart's dimensions\n            //and card does not have fixed height or style\n            if ($(\"#chart-{{id}}\").parent().is('[class*=\"col\"]') && $(\"#chart-{{id}}\").parent().width() * 10/16 > $(\"#chart-{{id}}\").parent().parent().height()){\n                $(\"#chart-{{id}}\").parent().css({'height':'100%'});\n                $(\"#chart-{{id}}\").attr('data-chart-height', '100%');\n            }\n            //End of Code\n            loadScript(\"{{contextPath}}/js/apexcharts-sparkline.js\", function(){\n                $(\"#chart-{{id}}\").acSparkline();\n            });\n        });\n    <\/script>\n<\/div>\n<!---->",
+                                        "attr-data-events-listening": [],
+                                        "color": "#29292C",
+                                        "headerTag": "",
+                                        "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        background: #fff;\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                        "tagColor": "",
+                                        "icon": "<i class=\"fas fa-globe\"><\/i>",
+                                        "link": "",
+                                        "bgImg": "",
+                                        "title": "Bookings",
+                                        "customId": "bookings",
+                                        "chartData": "{data: [25, 66, 41, 89, 63, 25]}",
+                                        "chartConfig": "",
+                                        "reload": "",
+                                        "bgColor": "",
+                                        "subvalue": "",
+                                        "header": "Bookings",
+                                        "id": "029A9E0272184242D3D888BA2EF951C7",
+                                        "value": "281",
+                                        "chartLabels": "1,2,3,4,5,6",
+                                        "height": ""
+                                    }
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                "properties": {
+                                    "style-flex": "0 0 25%",
+                                    "style-max-width": "25%"
+                                }
+                            },
+                            {
+                                "elements": [{
+                                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                    "properties": {
+                                        "template": "<!--{sampleWidth: '250px', tags: 'light-bg tag header pie'}-->\n<div class=\"card\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div class=\"card-header\" \n         style=\"background-color:transparent;\">\n        <div class=\"row\">\n            <div class=\"header-title col-8\">\n                {{header||VISITORS}}\n            <\/div>\n            <div class=\"header-tag col-4 text-right pl-0\">\n                <span class=\"badge\" \n                      style=\"background-color:{{tagColor||#1ab394}}; \n                             color:#fff;\">\n                    {{headerTag||Daily}}\n                <\/span>\n                {{reload}}\n            <\/div>\n        <\/div>    \n    <\/div>\n    <div class=\"card-body py-0 d-flex align-items-center\">\n        <div class=\"stats-icon col-4 py-4 pr-0 d-flex align-items-center\">\n            <div id=\"chart-{{id}}\" \n                 data-chart-type=\"pie\" \n                 data-chart-custom=\"{{chartConfig}}\" \n                 data-chart-config=\"{theme:{monochrome: {enabled: true,shadeTo: 'light', color: '{{color||#563d7c}}', shadeIntensity: 0.6}}}\"  \n                 data-chart-labels=\"{{chartLabels||Item 1,Item 2,Item 3,Item 4}}\"\n                 data-chart-values=\"{{chartData||[25, 66, 41, 89]}}\">\n            <\/div>\n        <\/div>\n        <div class=\"stats-info py-3 pr-3 pl-2 col-8\">\n            <div class=\"d-flex flex-row align-items-center justify-content-between\" \n                 style=\"font-size: 24px; \n                        margin-bottom: 10px;\">\n                <span>\n                    {{value||1,000}}\n                <\/span>\n                <span class=\"pl-2\" \n                      style=\"font-size:12px; \n                             color:{{color||#563d7c}};\">\n                    {{subvalue||12% <i class=\"fas fa-level-up-alt\"><\/i>}}\n                <\/span>\n            <\/div>\n            <h4 style=\"font-size: 12px;\n                       color: rgba(0,0,0,.6);\n                       margin: 5px 0;\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n        <\/div>            \n    <\/div>\n    <script>\n        $(function(){\n            // Remove the code below if you prefer the card height to adjust based on the chart's dimensions\n            //and card does not have fixed height or style\n            if ($(\"#chart-{{id}}\").parent().is('[class*=\"col\"]') && $(\"#chart-{{id}}\").parent().width() * 10/16 > $(\"#chart-{{id}}\").parent().parent().height()){\n                $(\"#chart-{{id}}\").parent().css({'height':'100%'});\n                $(\"#chart-{{id}}\").attr('data-chart-height', '100%');\n            }\n            //End of Code\n            loadScript(\"{{contextPath}}/js/apexcharts-sparkline.js\", function(){\n                $(\"#chart-{{id}}\").acSparkline();\n            });\n        });\n    <\/script>\n<\/div>\n<!---->",
+                                        "attr-data-events-listening": [],
+                                        "color": "#3F98EF",
+                                        "headerTag": "",
+                                        "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        background: #fff;\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                        "tagColor": "",
+                                        "icon": "<i class=\"fas fa-globe\"><\/i>",
+                                        "link": "",
+                                        "bgImg": "",
+                                        "title": "Users",
+                                        "customId": "todays_users",
+                                        "chartData": "{data: [25, 66, 41, 89, 63, 25]}",
+                                        "chartConfig": "",
+                                        "reload": "",
+                                        "bgColor": "",
+                                        "subvalue": "+3% greater",
+                                        "header": "Today's Users",
+                                        "id": "C3B5A94D0503473D6C1EB335E877A3E0",
+                                        "value": "2,300",
+                                        "chartLabels": "1,2,3,4,5,6",
+                                        "height": ""
+                                    }
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                "properties": {
+                                    "style-flex": "0 0 25%",
+                                    "style-max-width": "25%"
+                                }
+                            },
+                            {
+                                "elements": [{
+                                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                    "properties": {
+                                        "template": "<!--{sampleWidth: '250px', tags: 'light-bg tag header pie'}-->\n<div class=\"card\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div class=\"card-header\" \n         style=\"background-color:transparent;\">\n        <div class=\"row\">\n            <div class=\"header-title col-8\">\n                {{header||VISITORS}}\n            <\/div>\n            <div class=\"header-tag col-4 text-right pl-0\">\n                <span class=\"badge\" \n                      style=\"background-color:{{tagColor||#1ab394}}; \n                             color:#fff;\">\n                    {{headerTag||Daily}}\n                <\/span>\n                {{reload}}\n            <\/div>\n        <\/div>    \n    <\/div>\n    <div class=\"card-body py-0 d-flex align-items-center\">\n        <div class=\"stats-icon col-4 py-4 pr-0 d-flex align-items-center\">\n            <div id=\"chart-{{id}}\" \n                 data-chart-type=\"pie\" \n                 data-chart-custom=\"{{chartConfig}}\" \n                 data-chart-config=\"{theme:{monochrome: {enabled: true,shadeTo: 'light', color: '{{color||#563d7c}}', shadeIntensity: 0.6}}}\"  \n                 data-chart-labels=\"{{chartLabels||Item 1,Item 2,Item 3,Item 4}}\"\n                 data-chart-values=\"{{chartData||[25, 66, 41, 89]}}\">\n            <\/div>\n        <\/div>\n        <div class=\"stats-info py-3 pr-3 pl-2 col-8\">\n            <div class=\"d-flex flex-row align-items-center justify-content-between\" \n                 style=\"font-size: 24px; \n                        margin-bottom: 10px;\">\n                <span>\n                    {{value||1,000}}\n                <\/span>\n                <span class=\"pl-2\" \n                      style=\"font-size:12px; \n                             color:{{color||#563d7c}};\">\n                    {{subvalue||12% <i class=\"fas fa-level-up-alt\"><\/i>}}\n                <\/span>\n            <\/div>\n            <h4 style=\"font-size: 12px;\n                       color: rgba(0,0,0,.6);\n                       margin: 5px 0;\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n        <\/div>            \n    <\/div>\n    <script>\n        $(function(){\n            // Remove the code below if you prefer the card height to adjust based on the chart's dimensions\n            //and card does not have fixed height or style\n            if ($(\"#chart-{{id}}\").parent().is('[class*=\"col\"]') && $(\"#chart-{{id}}\").parent().width() * 10/16 > $(\"#chart-{{id}}\").parent().parent().height()){\n                $(\"#chart-{{id}}\").parent().css({'height':'100%'});\n                $(\"#chart-{{id}}\").attr('data-chart-height', '100%');\n            }\n            //End of Code\n            loadScript(\"{{contextPath}}/js/apexcharts-sparkline.js\", function(){\n                $(\"#chart-{{id}}\").acSparkline();\n            });\n        });\n    <\/script>\n<\/div>\n<!---->",
+                                        "attr-data-events-listening": [],
+                                        "color": "#5BB25F",
+                                        "headerTag": "",
+                                        "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        background: #fff;\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                        "tagColor": "",
+                                        "icon": "<i class=\"fas fa-globe\"><\/i>",
+                                        "link": "",
+                                        "bgImg": "",
+                                        "title": "Revenue",
+                                        "customId": "revenue",
+                                        "chartData": "{data: [25, 66, 41, 89, 63, 25]}",
+                                        "chartConfig": "",
+                                        "reload": "",
+                                        "bgColor": "",
+                                        "subvalue": "+1%",
+                                        "header": "Revenue",
+                                        "id": "BFF6411205D04BE65370154BF007D1C5",
+                                        "value": "34k",
+                                        "chartLabels": "1,2,3,4,5,6",
+                                        "height": ""
+                                    }
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                "properties": {
+                                    "style-flex": "0 0 25%",
+                                    "style-max-width": "25%"
+                                }
+                            },
+                            {
+                                "elements": [{
+                                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                    "properties": {
+                                        "template": "<!--{sampleWidth: '250px', tags: 'light-bg tag header pie'}-->\n<div class=\"card\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div class=\"card-header\" \n         style=\"background-color:transparent;\">\n        <div class=\"row\">\n            <div class=\"header-title col-8\">\n                {{header||VISITORS}}\n            <\/div>\n            <div class=\"header-tag col-4 text-right pl-0\">\n                <span class=\"badge\" \n                      style=\"background-color:{{tagColor||#1ab394}}; \n                             color:#fff;\">\n                    {{headerTag||Daily}}\n                <\/span>\n                {{reload}}\n            <\/div>\n        <\/div>    \n    <\/div>\n    <div class=\"card-body py-0 d-flex align-items-center\">\n        <div class=\"stats-icon col-4 py-4 pr-0 d-flex align-items-center\">\n            <div id=\"chart-{{id}}\" \n                 data-chart-type=\"pie\" \n                 data-chart-custom=\"{{chartConfig}}\" \n                 data-chart-config=\"{theme:{monochrome: {enabled: true,shadeTo: 'light', color: '{{color||#563d7c}}', shadeIntensity: 0.6}}}\"  \n                 data-chart-labels=\"{{chartLabels||Item 1,Item 2,Item 3,Item 4}}\"\n                 data-chart-values=\"{{chartData||[25, 66, 41, 89]}}\">\n            <\/div>\n        <\/div>\n        <div class=\"stats-info py-3 pr-3 pl-2 col-8\">\n            <div class=\"d-flex flex-row align-items-center justify-content-between\" \n                 style=\"font-size: 24px; \n                        margin-bottom: 10px;\">\n                <span>\n                    {{value||1,000}}\n                <\/span>\n                <span class=\"pl-2\" \n                      style=\"font-size:12px; \n                             color:{{color||#563d7c}};\">\n                    {{subvalue||12% <i class=\"fas fa-level-up-alt\"><\/i>}}\n                <\/span>\n            <\/div>\n            <h4 style=\"font-size: 12px;\n                       color: rgba(0,0,0,.6);\n                       margin: 5px 0;\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n        <\/div>            \n    <\/div>\n    <script>\n        $(function(){\n            // Remove the code below if you prefer the card height to adjust based on the chart's dimensions\n            //and card does not have fixed height or style\n            if ($(\"#chart-{{id}}\").parent().is('[class*=\"col\"]') && $(\"#chart-{{id}}\").parent().width() * 10/16 > $(\"#chart-{{id}}\").parent().parent().height()){\n                $(\"#chart-{{id}}\").parent().css({'height':'100%'});\n                $(\"#chart-{{id}}\").attr('data-chart-height', '100%');\n            }\n            //End of Code\n            loadScript(\"{{contextPath}}/js/apexcharts-sparkline.js\", function(){\n                $(\"#chart-{{id}}\").acSparkline();\n            });\n        });\n    <\/script>\n<\/div>\n<!---->",
+                                        "attr-data-events-listening": [],
+                                        "color": "#E83875",
+                                        "headerTag": "",
+                                        "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        background: #fff;\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                        "tagColor": "",
+                                        "icon": "<i class=\"fas fa-globe\"><\/i>",
+                                        "link": "",
+                                        "bgImg": "",
+                                        "title": "Followers",
+                                        "customId": "followers",
+                                        "chartData": "{data: [25, 66, 41, 89, 63, 25]}",
+                                        "chartConfig": "",
+                                        "reload": "",
+                                        "bgColor": "",
+                                        "subvalue": "Just Updated",
+                                        "header": "Followers",
+                                        "id": "79E78ABA0DF84603EE0DCD9FDACE5C73",
+                                        "value": "+91",
+                                        "chartLabels": "1,2,3,4,5,6",
+                                        "height": ""
+                                    }
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                "properties": {
+                                    "style-flex": "0 0 25%",
+                                    "style-max-width": "25%"
+                                }
+                            }
+                        ],
+                        "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                        "properties": {
+                            "attr-data-events-listening": [],
+                            "gutter": "5px",
+                            "columns": [
+                                {
+                                    "style-mobile-max-width": "",
+                                    "style-max-width": "25%",
+                                    "style-tablet-max-width": ""
+                                },
+                                {
+                                    "style-mobile-max-width": "",
+                                    "style-max-width": "25%",
+                                    "style-tablet-max-width": ""
+                                },
+                                {
+                                    "style-mobile-max-width": "",
+                                    "style-max-width": "25%",
+                                    "style-tablet-max-width": ""
+                                },
+                                {
+                                    "style-mobile-max-width": "",
+                                    "style-max-width": "25%",
+                                    "style-tablet-max-width": ""
+                                }
+                            ],
+                            "css-mobile-stack-columns": "true",
+                            "id": "01BE7729E4814E67ABCC0A8A83E0D114",
+                            "customId": ""
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+                    "properties": {"id": "22FBF6ED60124BAF59138D4C394DE902"}
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "style-background-color": "#F9F9F9",
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "style-border-bottom-width": "0px",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Available Bookings",
+                        "enableOffline": "",
+                        "customId": "card_view",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "list_available_bookings",
+                        "checkboxPosition": "no",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "style-border-left-width": "0px",
+                        "style-border-right-width": "0px",
+                        "rowCount": "",
+                        "id": "EB9CEA76A7824BEC617B26C6D9899076",
+                        "style-border-top-width": "0px",
+                        "style-border-radius": "0px"
+                    }
+                }
+            ],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "id": "372C80C09A1C4C39F65B61CDFA08F8C5",
+                "customId": ""
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-8ABE4A700E4C4BF0B765B59BB5B1D39D"}
+}

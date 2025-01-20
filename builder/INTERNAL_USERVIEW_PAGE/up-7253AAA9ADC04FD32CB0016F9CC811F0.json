@@ -1,0 +1,33 @@
+{
+    "elements": [
+        {"className": "menu-component"},
+        {
+            "elements": [{
+                "elements": [
+                    {
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {}
+                    },
+                    {
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {}
+                    }
+                ],
+                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                "properties": {
+                    "gutter": "5px",
+                    "columns": [
+                        {"style-max-width": ""},
+                        {"style-max-width": ""}
+                    ],
+                    "css-mobile-stack-columns": "true",
+                    "id": "890EF7BF80D64D129E8DBF3835FA336B"
+                }
+            }],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {"id": "8971603EEFF64685CD71A2BB9DDEC1F8"}
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-7253AAA9ADC04FD32CB0016F9CC811F0"}
+}

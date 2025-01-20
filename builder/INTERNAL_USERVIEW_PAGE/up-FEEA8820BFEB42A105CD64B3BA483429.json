@@ -1,0 +1,503 @@
+{
+    "elements": [
+        {
+            "elements": [{
+                "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+                "properties": {
+                    "attr-data-events-listening": [],
+                    "textContent": "<h4>Welcome Back, #currentUser.fullName#<\/h4>\n<h5 style=\"color:grey;\">Let's dive in and get things done.<\/h5>",
+                    "id": "1F474E94632443D7ABC5D3A9A1E64F90",
+                    "customId": ""
+                }
+            }],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {"id": "FD71E52B456945B810ADA85740161BF5"}
+        },
+        {
+            "elements": [{
+                "elements": [
+                    {
+                        "elements": [
+                            {
+                                "elements": [
+                                    {
+                                        "elements": [{
+                                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                            "properties": {
+                                                "template": "<div class=\"card\" \r\n     style=\"background-color: #ffffff; \r\n            border-radius: 8px; \r\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); \r\n            padding: 20px; \r\n            position: relative; \r\n            font-family: Arial, sans-serif; \r\n            color: #333;\">\r\n    <!-- Title and value -->\r\n    <div style=\"display: flex; flex-direction: column; gap: 10px;\">\r\n        <h4 style=\"font-size: 12px; \r\n                   font-weight: 500; \r\n                   color: #666; \r\n                   margin: 0;\">\r\n            {{title||Total Sales}}\r\n        <\/h4>\r\n        <p style=\"font-size: 14px; \r\n                  font-weight: 600; \r\n                  margin: 0;\">\r\n            {{value||32,981}}\r\n        <\/p>\r\n        <a href=\"{{link||#}}\" \r\n           style=\"font-size: 10px; \r\n                  color: #000; \r\n                  text-decoration: underline;\">\r\n            {{linkLabel||View all sales}}\r\n        <\/a>\r\n    <\/div>\r\n\r\n    <!-- Icon -->\r\n    <div style=\"position: absolute; \r\n                top: 10px; \r\n                right: 10px; \r\n                display: flex; \r\n                align-items: center; \r\n                justify-content: center; \r\n                width: 30px; \r\n                height: 30px; \r\n                background-color: #8753de; \r\n                border-radius: 50%; \r\n                color: #ffffff;\">\r\n        {{icon||<i class=\"fas fa-shopping-bag\"><\/i>}}\r\n    <\/div>\r\n\r\n    <!-- Percentage change -->\r\n    <div style=\"position: absolute; \r\n                bottom: 20px; \r\n                right: 20px; \r\n                font-size: 10px; \r\n                color: #28a745; \r\n                display: flex; \r\n                align-items: center;\">\r\n        <i class=\"fas fa-arrow-up\" style=\"margin-right: 4px;\"><\/i>\r\n        {{percentageChange||0.29%}}\r\n    <\/div>\r\n<\/div>\r\n",
+                                                "linkLabel": "View all sales",
+                                                "attr-data-events-listening": [],
+                                                "color": "#FFFFFF",
+                                                "icon": "<i class=\"fas fa-shopping-bag\"><\/i>",
+                                                "link": "",
+                                                "bgImg": "",
+                                                "title": "Total Sales",
+                                                "customId": "totalSales",
+                                                "reload": "",
+                                                "id": "78DFCF4B0E46488076D17E2EDADBE098",
+                                                "value": "32,981",
+                                                "height": ""
+                                            }
+                                        }],
+                                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                        "properties": {
+                                            "style-flex": "0 0 25%",
+                                            "style-max-width": "25%"
+                                        }
+                                    },
+                                    {
+                                        "elements": [{
+                                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                            "properties": {
+                                                "template": "<div class=\"card\" \r\n     style=\"background-color: #ffffff; \r\n            border-radius: 8px; \r\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); \r\n            padding: 20px; \r\n            position: relative; \r\n            font-family: Arial, sans-serif; \r\n            color: #333;\">\r\n    <!-- Title and value -->\r\n    <div style=\"display: flex; flex-direction: column; gap: 10px;\">\r\n        <h4 style=\"font-size: 12px; \r\n                   font-weight: 500; \r\n                   color: #666; \r\n                   margin: 0;\">\r\n            {{title||Total Sales}}\r\n        <\/h4>\r\n        <p style=\"font-size: 14px; \r\n                  font-weight: 600; \r\n                  margin: 0;\">\r\n            {{value||32,981}}\r\n        <\/p>\r\n        <a href=\"{{link||#}}\" \r\n           style=\"font-size: 10px; \r\n                  color: #000; \r\n                  text-decoration: underline;\">\r\n            {{linkLabel||View all sales}}\r\n        <\/a>\r\n    <\/div>\r\n\r\n    <!-- Icon -->\r\n    <div style=\"position: absolute; \r\n                top: 10px; \r\n                right: 10px; \r\n                display: flex; \r\n                align-items: center; \r\n                justify-content: center; \r\n                width: 30px; \r\n                height: 30px; \r\n                background-color: #FF5A29; \r\n                border-radius: 50%; \r\n                color: #ffffff;\">\r\n        {{icon||<i class=\"fas fa-shopping-bag\"><\/i>}}\r\n    <\/div>\r\n\r\n    <!-- Percentage change -->\r\n    <div style=\"position: absolute; \r\n                bottom: 20px; \r\n                right: 20px; \r\n                font-size: 14px; \r\n                color: #28a745; \r\n                display: flex; \r\n                align-items: center;\">\r\n        <i class=\"fas fa-arrow-up\" style=\"margin-right: 4px;\"><\/i>\r\n        {{percentageChange||0.29%}}\r\n    <\/div>\r\n<\/div>\r\n",
+                                                "attr-data-events-listening": [],
+                                                "linkLabel": "Complete Revenue",
+                                                "color": "#348FE2",
+                                                "icon": "<i class=\"fas fa-dollar-sign\"><\/i>",
+                                                "link": "",
+                                                "bgImg": "",
+                                                "title": "Total Revenue",
+                                                "customId": "",
+                                                "reload": "",
+                                                "id": "FBD39E8DC700490C2C02DCE3DF8050F9",
+                                                "value": "$14,214",
+                                                "height": ""
+                                            }
+                                        }],
+                                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                        "properties": {
+                                            "style-flex": "0 0 25%",
+                                            "style-max-width": "25%"
+                                        }
+                                    },
+                                    {
+                                        "elements": [{
+                                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                            "properties": {
+                                                "template": "<div class=\"card\" \r\n     style=\"background-color: #ffffff; \r\n            border-radius: 8px; \r\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); \r\n            padding: 20px; \r\n            position: relative; \r\n            font-family: Arial, sans-serif; \r\n            color: #333;\">\r\n    <!-- Title and value -->\r\n    <div style=\"display: flex; flex-direction: column; gap: 10px;\">\r\n        <h4 style=\"font-size: 12px; \r\n                   font-weight: 500; \r\n                   color: #666; \r\n                   margin: 0;\">\r\n            {{title||Total Sales}}\r\n        <\/h4>\r\n        <p style=\"font-size: 14px; \r\n                  font-weight: 600; \r\n                  margin: 0;\">\r\n            {{value||32,981}}\r\n        <\/p>\r\n        <a href=\"{{link||#}}\" \r\n           style=\"font-size: 10px; \r\n                  color: #000; \r\n                  text-decoration: underline;\">\r\n            {{linkLabel||View all sales}}\r\n        <\/a>\r\n    <\/div>\r\n\r\n    <!-- Icon -->\r\n    <div style=\"position: absolute; \r\n                top: 10px; \r\n                right: 10px; \r\n                display: flex; \r\n                align-items: center; \r\n                justify-content: center; \r\n                width: 30px; \r\n                height: 30px; \r\n                background-color: #0CC763; \r\n                border-radius: 50%; \r\n                color: #ffffff;\">\r\n        {{icon||<i class=\"fas fa-shopping-bag\"><\/i>}}\r\n    <\/div>\r\n\r\n    <!-- Percentage change -->\r\n    <div style=\"position: absolute; \r\n                bottom: 20px; \r\n                right: 20px; \r\n                font-size: 14px; \r\n                color: #28a745; \r\n                display: flex; \r\n                align-items: center;\">\r\n        <i class=\"fas fa-arrow-up\" style=\"margin-right: 4px;\"><\/i>\r\n        {{percentageChange||0.29%}}\r\n    <\/div>\r\n<\/div>\r\n",
+                                                "attr-data-events-listening": [],
+                                                "linkLabel": "Total page views",
+                                                "color": "#348FE2",
+                                                "icon": "<i class=\"fas fa-globe\"><\/i>",
+                                                "link": "",
+                                                "id": "0B649189F0B1400E957CA96CB7805EAF",
+                                                "title": "Page Views",
+                                                "value": "4,678",
+                                                "customId": "pageViews"
+                                            }
+                                        }],
+                                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                        "properties": {
+                                            "style-flex": "0 0 25%",
+                                            "style-max-width": "25%"
+                                        }
+                                    },
+                                    {
+                                        "elements": [{
+                                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                            "properties": {
+                                                "template": "<div class=\"card\" \r\n     style=\"background-color: #ffffff; \r\n            border-radius: 8px; \r\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); \r\n            padding: 20px; \r\n            position: relative; \r\n            font-family: Arial, sans-serif; \r\n            color: #333;\">\r\n    <!-- Title and value -->\r\n    <div style=\"display: flex; flex-direction: column; gap: 10px;\">\r\n        <h4 style=\"font-size: 12px; \r\n                   font-weight: 500; \r\n                   color: #666; \r\n                   margin: 0;\">\r\n            {{title||Total Sales}}\r\n        <\/h4>\r\n        <p style=\"font-size: 14px; \r\n                  font-weight: 600; \r\n                  margin: 0;\">\r\n            {{value||32,981}}\r\n        <\/p>\r\n        <a href=\"{{link||#}}\" \r\n           style=\"font-size: 10px; \r\n                  color: #000; \r\n                  text-decoration: underline;\">\r\n            {{linkLabel||View all sales}}\r\n        <\/a>\r\n    <\/div>\r\n\r\n    <!-- Icon -->\r\n    <div style=\"position: absolute; \r\n                top: 10px; \r\n                right: 10px; \r\n                display: flex; \r\n                align-items: center; \r\n                justify-content: center; \r\n                width: 30px; \r\n                height: 30px; \r\n                background-color: #0C9CFC; \r\n                border-radius: 50%; \r\n                color: #ffffff;\">\r\n        {{icon||<i class=\"fas fa-shopping-bag\"><\/i>}}\r\n    <\/div>\r\n\r\n    <!-- Percentage change -->\r\n    <div style=\"position: absolute; \r\n                bottom: 20px; \r\n                right: 20px; \r\n                font-size: 14px; \r\n                color: #28a745; \r\n                display: flex; \r\n                align-items: center;\">\r\n        <i class=\"fas fa-arrow-up\" style=\"margin-right: 4px;\"><\/i>\r\n        {{percentageChange||0.29%}}\r\n    <\/div>\r\n<\/div>\r\n",
+                                                "linkLabel": "Total profit earned",
+                                                "attr-data-events-listening": [],
+                                                "color": "#348fe2",
+                                                "icon": "<i class=\"fas fa-wallet\"><\/i>",
+                                                "link": "",
+                                                "id": "C110720B027A44E10675F139D26E4B83",
+                                                "title": "Profits By Sale",
+                                                "value": "$645",
+                                                "customId": "profitsBySale"
+                                            }
+                                        }],
+                                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                        "properties": {
+                                            "style-flex": "0 0 25%",
+                                            "style-max-width": "25%"
+                                        }
+                                    }
+                                ],
+                                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                                "properties": {
+                                    "attr-data-events-listening": [],
+                                    "gutter": "5px",
+                                    "columns": [
+                                        {
+                                            "style-mobile-max-width": "",
+                                            "style-max-width": "25%",
+                                            "style-tablet-max-width": ""
+                                        },
+                                        {
+                                            "style-mobile-max-width": "",
+                                            "style-max-width": "25%",
+                                            "style-tablet-max-width": ""
+                                        },
+                                        {
+                                            "style-mobile-max-width": "",
+                                            "style-max-width": "25%",
+                                            "style-tablet-max-width": ""
+                                        },
+                                        {
+                                            "style-mobile-max-width": "",
+                                            "style-max-width": "25%",
+                                            "style-tablet-max-width": ""
+                                        }
+                                    ],
+                                    "css-mobile-stack-columns": "true",
+                                    "id": "1A4D9D4AB358423AD35422A4A34E4FBE",
+                                    "customId": ""
+                                }
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "elements": [{
+                                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                            "properties": {
+                                                "template": "<!--{sampleWidth: '350px', tags: 'light-bg header tag complex'}-->\n<div class=\"card\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div class=\"card-header\" \n         style=\"background-color:transparent;\">\n        <div class=\"row\">\n            <div class=\"header-title col-8\">\n                {{header||VISITORS}}\n            <\/div>\n            <div class=\"header-tag col-4 text-right pl-0\">\n                <span class=\"badge\" \n                      style=\"background-color:{{tagColor||#1ab394}}; \n                      color:#fff;\">\n                    {{headerTag||Daily}}\n                <\/span>\n                {{reload}}\n            <\/div>\n        <\/div>    \n    <\/div>\n    <div class=\"card-body row\">\n        {{repeat||[{value: \"406,42\", subvalue: \"33% <i class=\\\"fa fa-level-up\\\"><\/i>\", subtitle: \"Rapid pace\", color: \"#1ab394\"},{value: \"206,12\", subvalue: \"10% <i class=\\\"fa fa-level-up\\\"><\/i>\", subtitle: \"Slow pace\", color: \"#8753de\"}]}}\n            <div class=\"stats-info col-6\">\n                <p style=\"font-size: 24px; \n                          margin-bottom: 0;\">\n                    {{repeat.value}}\n                <\/p>\n                <p style=\"color:{{repeat.color}}\">\n                    <span style=\"font-weight:bold;\">\n                        {{repeat.subvalue}}\n                    <\/span> \n                    <span style=\"font-size:80%;\">\n                        {{repeat.subtitle}}\n                    <\/span>\n                <\/p>\n            <\/div>\n        {{repeat}}\n    <\/div>\n<\/div>\n<!---->",
+                                                "attr-data-events-listening": [],
+                                                "color": "#348fe2",
+                                                "headerTag": "",
+                                                "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                                "tagColor": "",
+                                                "icon": "<i class=\"fas fa-globe\"><\/i>",
+                                                "link": "",
+                                                "bgImg": "",
+                                                "title": "TOTAL VISITS",
+                                                "customId": "visitorsReport",
+                                                "reload": "",
+                                                "bgColor": "",
+                                                "repeat": [
+                                                    {
+                                                        "color": "#5FC763",
+                                                        "subvalue": "0.64%",
+                                                        "subtitle": "This Week",
+                                                        "value": "14,642"
+                                                    },
+                                                    {
+                                                        "color": "#DE2D12",
+                                                        "subvalue": "5.31%",
+                                                        "subtitle": "Last Week",
+                                                        "value": "12,326"
+                                                    }
+                                                ],
+                                                "header": "Visitors Report",
+                                                "id": "A9FD7F78D6344BB025F2C146B95DAB62",
+                                                "value": "3,291,922",
+                                                "height": "250px"
+                                            }
+                                        }],
+                                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                        "properties": {
+                                            "style-flex": "0 0 40%",
+                                            "style-max-width": "40%"
+                                        }
+                                    },
+                                    {
+                                        "elements": [{
+                                            "className": "org.joget.marketplace.ChartJs",
+                                            "properties": {
+                                                "showLegend": "",
+                                                "showToolTip": "",
+                                                "enableOffline": "",
+                                                "title": "Order Statistics",
+                                                "customId": "order_statistics",
+                                                "chartHeight": "200px",
+                                                "mapping_x": "date",
+                                                "categoryAxisLabel": "Category",
+                                                "enableAnimation": "",
+                                                "id": "7F1046CE082948F515A7B904488D7804",
+                                                "customHeader": "",
+                                                "mapping_values": [
+                                                    {
+                                                        "customization": "",
+                                                        "showValueLabel": "",
+                                                        "value": "current_sales"
+                                                    },
+                                                    {
+                                                        "customization": "",
+                                                        "showValueLabel": "",
+                                                        "value": "previous_sales"
+                                                    }
+                                                ],
+                                                "buttons": "",
+                                                "valueAxisLabel": "Value",
+                                                "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                                "keyName": "",
+                                                "label": "Order Statistics",
+                                                "datalistId": "list_historicalSales",
+                                                "chartWidth": "90%",
+                                                "customChartFooter": "",
+                                                "userviewCacheDuration": "20",
+                                                "showFilter": "",
+                                                "userviewCacheScope": "",
+                                                "chartType": "line",
+                                                "showTable": "",
+                                                "chartUseAllDataRows": ""
+                                            }
+                                        }],
+                                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                        "properties": {
+                                            "style-flex": "0 0 60%",
+                                            "style-max-width": "60%"
+                                        }
+                                    }
+                                ],
+                                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                                "properties": {
+                                    "attr-data-events-listening": [],
+                                    "gutter": "5px",
+                                    "columns": [
+                                        {
+                                            "style-mobile-max-width": "",
+                                            "style-max-width": "40%",
+                                            "style-tablet-max-width": ""
+                                        },
+                                        {
+                                            "style-mobile-max-width": "",
+                                            "style-max-width": "60%",
+                                            "style-tablet-max-width": ""
+                                        }
+                                    ],
+                                    "css-mobile-stack-columns": "true",
+                                    "id": "E962E9A8781B4EA445C5F546E3901528",
+                                    "customId": ""
+                                }
+                            },
+                            {
+                                "elements": [{
+                                    "elements": [{
+                                        "className": "org.joget.apps.userview.lib.DataListMenu",
+                                        "properties": {
+                                            "cacheAllLinks": "",
+                                            "customHeader": "<h5>Recent Orders<\/h5>",
+                                            "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                            "keyName": "",
+                                            "customFooter": "",
+                                            "label": "Recent Orders",
+                                            "enableOffline": "",
+                                            "customId": "recent_orders",
+                                            "buttonPosition": "bothLeft",
+                                            "datalistId": "list_newOrder",
+                                            "checkboxPosition": "no",
+                                            "selectionType": "multiple",
+                                            "userviewCacheDuration": "20",
+                                            "cacheListAction": "",
+                                            "userviewCacheScope": "",
+                                            "rowCount": "",
+                                            "id": "330FDC53674443220C86F1F8ED25295D"
+                                        }
+                                    }],
+                                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                    "properties": {}
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                                "properties": {
+                                    "attr-data-events-listening": [],
+                                    "gutter": "5px",
+                                    "columns": [{
+                                        "style-mobile-max-width": "",
+                                        "style-max-width": "",
+                                        "style-tablet-max-width": ""
+                                    }],
+                                    "css-mobile-stack-columns": "true",
+                                    "id": "E71906B0610F4444B1CA094D183923B1",
+                                    "customId": ""
+                                }
+                            },
+                            {
+                                "elements": [{
+                                    "elements": [{
+                                        "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                                        "properties": {
+                                            "template": "<!--{sampleWidth: '100%', tags: 'light-bg grid'}-->\n<div class=\"card\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div class=\"card-header\" \n         style=\"background-color:transparent;\">\n        <div class=\"row\">\n            <div class=\"header-title col-8\">\n                {{header||STATUS}}\n            <\/div>\n            <div class=\"header-tag col-4 text-right pl-0\">\n                <span class=\"badge\" \n                      style=\"background-color:{{tagColor||#1ab394}}; \n                             color:#fff;\">\n                    {{headerTag||Daily}}\n                <\/span>\n                {{reload}}\n            <\/div>\n        <\/div>    \n    <\/div>  \n    <div class=\"card-body row d-flex flex-wrap pb-0\">\n        {{repeat||[{value: \"12\", title: \"Messages\", color: \"#ED5565\"},{value: \"28\", title: \"Posts\", color: \"#1ab394\"},{value: \"15\", title: \"Comments\", color: \"#23c6c8\"},{value: \"20\", title: \"News\", color: \"#1c84c6\"}]}}\n            <div class=\"col-4\"\n                 style=\"margin-bottom: 15px\">\n                <a href=\"{{repeat.link}}\" \n                   class=\"btn\"\n                   style=\"background-color:{{repeat.color}};\n                          color:#ffffff;\n                          padding: 5px 10px;\n                          margin-right:20px;\n                          opacity:1;\">\n                   {{repeat.value}}\n                <\/a>  \n                {{repeat.title}}\n            <\/div>\n        {{repeat}}\n    <\/div>\n<\/div>\n<!---->",
+                                            "attr-data-events-listening": [],
+                                            "color": "#348fe2",
+                                            "headerTag": "",
+                                            "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                            "tagColor": "",
+                                            "icon": "<i class=\"fas fa-globe\"><\/i>",
+                                            "link": "",
+                                            "bgImg": "",
+                                            "title": "TOTAL VISITS",
+                                            "customId": "quickLinks",
+                                            "reload": "",
+                                            "bgColor": "",
+                                            "repeat": [
+                                                {
+                                                    "color": "#348FE2",
+                                                    "link": "sample",
+                                                    "title": "Messages",
+                                                    "value": "4,312"
+                                                },
+                                                {
+                                                    "color": "#348FE2",
+                                                    "link": "sample",
+                                                    "title": "Posts",
+                                                    "value": "65,745"
+                                                },
+                                                {
+                                                    "color": "#348FE2",
+                                                    "link": "sample",
+                                                    "title": "Comments",
+                                                    "value": "102,312"
+                                                },
+                                                {
+                                                    "color": "#348FE2",
+                                                    "link": "sample",
+                                                    "title": "Views",
+                                                    "value": "54,102"
+                                                },
+                                                {
+                                                    "color": "#348FE2",
+                                                    "link": "sample",
+                                                    "title": "Pending",
+                                                    "value": "92,031"
+                                                },
+                                                {
+                                                    "color": "#348FE2",
+                                                    "link": "sample",
+                                                    "title": "Action Required",
+                                                    "value": "12,167"
+                                                }
+                                            ],
+                                            "header": "<p style=\"font-size:18px\">Quick Links<\/p>",
+                                            "id": "2A346719328A4E73433340B6F19C4D21",
+                                            "value": "3,291,922",
+                                            "height": "260px"
+                                        }
+                                    }],
+                                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                    "properties": {}
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                                "properties": {
+                                    "attr-data-events-listening": [],
+                                    "gutter": "5px",
+                                    "columns": [{
+                                        "style-mobile-max-width": "",
+                                        "style-max-width": "",
+                                        "style-tablet-max-width": ""
+                                    }],
+                                    "css-mobile-stack-columns": "true",
+                                    "id": "F5357321D8AD4905EBD42766D6793A88",
+                                    "customId": ""
+                                }
+                            }
+                        ],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {
+                            "style-flex": "0 0 72%",
+                            "style-max-width": "72%"
+                        }
+                    },
+                    {
+                        "elements": [
+                            {
+                                "elements": [{
+                                    "elements": [{
+                                        "className": "org.joget.marketplace.ChartJs",
+                                        "properties": {
+                                            "mapping_value": "percentage",
+                                            "showLegend": "",
+                                            "showToolTip": "",
+                                            "enableOffline": "",
+                                            "title": "Top Selling Categories",
+                                            "customId": "top_selling_categories",
+                                            "chartHeight": "300px",
+                                            "mapping_x": "device",
+                                            "categoryAxisLabel": "Category",
+                                            "id": "DF6FFA47BBDC4096060CE67F6333ABD4",
+                                            "customHeader": "<style>\n    .dataList .pagebanner {\n        display:none;\n    }\n<\/style>",
+                                            "buttons": "",
+                                            "showExportLinks": "",
+                                            "valueAxisLabel": "Value",
+                                            "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                            "keyName": "",
+                                            "label": "Top Selling Categories",
+                                            "opaqueChart": "true",
+                                            "datalistId": "list_trafficByDevice",
+                                            "chartWidth": "90%",
+                                            "customChartFooter": "",
+                                            "userviewCacheDuration": "20",
+                                            "showFilter": "",
+                                            "userviewCacheScope": "",
+                                            "chartType": "pie",
+                                            "showTable": "bottom",
+                                            "chartUseAllDataRows": ""
+                                        }
+                                    }],
+                                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                                    "properties": {}
+                                }],
+                                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                                "properties": {
+                                    "attr-data-events-listening": [],
+                                    "gutter": "5px",
+                                    "columns": [{
+                                        "style-mobile-max-width": "",
+                                        "style-max-width": "",
+                                        "style-tablet-max-width": ""
+                                    }],
+                                    "css-mobile-stack-columns": "true",
+                                    "id": "263ABF588509481B42B66826D27F29E9",
+                                    "customId": ""
+                                }
+                            },
+                            {
+                                "className": "org.joget.apps.userview.lib.DataListMenu",
+                                "properties": {
+                                    "cacheAllLinks": "",
+                                    "customHeader": "<h5>Recent Orders<\/h5>\n<style>\n    .dataList .pageBanner {\n        display:none;\n    }\n    .dataList .filters {\n        display:none;\n    }\n    .dataList .exportlinks {\n    display:none;\n    }\n    \n<\/style>",
+                                    "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\r\n        margin: 0 auto; /* Center the container */\r\n        border-radius: 15px;\r\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\r\n        overflow: hidden; /* Prevent content from spilling out */",
+                                    "keyName": "",
+                                    "customFooter": "",
+                                    "label": "List",
+                                    "enableOffline": "",
+                                    "customId": "",
+                                    "buttonPosition": "bothLeft",
+                                    "datalistId": "list_ticketsSoldByEvent",
+                                    "checkboxPosition": "no",
+                                    "selectionType": "multiple",
+                                    "userviewCacheDuration": "20",
+                                    "cacheListAction": "",
+                                    "userviewCacheScope": "",
+                                    "rowCount": "",
+                                    "id": "068374B7511D419140D59E06ACD84A03"
+                                }
+                            }
+                        ],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {
+                            "style-flex": "0 0 28%",
+                            "style-max-width": "28%"
+                        }
+                    }
+                ],
+                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                "properties": {
+                    "attr-data-events-listening": [],
+                    "gutter": "5px",
+                    "columns": [
+                        {
+                            "style-mobile-max-width": "",
+                            "style-max-width": "72%",
+                            "style-tablet-max-width": ""
+                        },
+                        {
+                            "style-mobile-max-width": "",
+                            "style-max-width": "28%",
+                            "style-tablet-max-width": ""
+                        }
+                    ],
+                    "css-mobile-stack-columns": "true",
+                    "id": "CFCDF9C10C864CE38FC5C9635FA47CF5",
+                    "customId": ""
+                }
+            }],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {"id": "9C9095501FA14A90BF28AC46A23E9169"}
+        },
+        {"className": "menu-component"}
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-FEEA8820BFEB42A105CD64B3BA483429"}
+}

@@ -1,0 +1,85 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "considerFilterWhenGetTotal": "",
+    "showPageSizeSelector": "true",
+    "responsiveMode": "",
+    "rowActions": [],
+    "columns": [
+        {
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "org.joget.apps.datalist.lib.ImageFormatter",
+                "properties": {
+                    "imagefullsize": "",
+                    "formDefId": "sales_by_country",
+                    "width": "30",
+                    "imageSrc": "form",
+                    "defaultImage": "",
+                    "height": "30"
+                }
+            },
+            "label": "Country Flag:",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "country_flag",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
+        },
+        {
+            "name": "country",
+            "id": "column_2",
+            "label": "Country:"
+        },
+        {
+            "name": "sales",
+            "id": "column_3",
+            "label": "Sales:"
+        },
+        {
+            "name": "value",
+            "id": "column_4",
+            "label": "Value:"
+        },
+        {
+            "name": "bounce",
+            "id": "column_0",
+            "label": "Bounce:"
+        }
+    ],
+    "cardCollapsible": "",
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "showDataWhenFilterSet": "",
+    "disableResponsive": "",
+    "checkboxPosition": "left",
+    "cardCollapseByDefault": "",
+    "id": "list_sales_by_country",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "sales_by_country"}
+    },
+    "order": "",
+    "useSession": "",
+    "draggabletable": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "hidePageSize": "true",
+    "name": "List - Sales By Country",
+    "rowActionsMode": "",
+    "showhidecolumns": "",
+    "actions": []
+}

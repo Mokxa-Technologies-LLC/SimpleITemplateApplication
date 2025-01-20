@@ -1,0 +1,268 @@
+{
+    "elements": [
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "readonly": "False",
+                        "errorMessage": "Invalid number of rows",
+                        "label": "Grid",
+                        "id": "field3"
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Grid",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "grid",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.ListGrid",
+                    "properties": {
+                        "showRowNumber": "false",
+                        "disabledDelete": "false",
+                        "errorMessage": "Invalid number of rows",
+                        "deleteSubformData": "false",
+                        "pageSize": "20",
+                        "label": "List Grid",
+                        "enableSorting": "false",
+                        "deleteFiles": "false",
+                        "readonly": "False",
+                        "deleteGridData": "false",
+                        "disabledAdd": "false",
+                        "sortField": "sort",
+                        "width": "900",
+                        "id": "field1",
+                        "abortRelatedRunningProcesses": "false",
+                        "readonlyLabel": "False",
+                        "height": "500"
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "List Grid",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "list_grid",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.FormGrid",
+                    "properties": {
+                        "showRowNumber": "false",
+                        "disabledDelete": "false",
+                        "errorMessage": "Invalid number of rows",
+                        "deleteSubformData": "false",
+                        "pageSize": "20",
+                        "label": "Form Grid",
+                        "enableSorting": "false",
+                        "deleteFiles": "false",
+                        "readonly": "False",
+                        "deleteGridData": "false",
+                        "disabledAdd": "false",
+                        "width": "900",
+                        "id": "field2",
+                        "abortRelatedRunningProcesses": "false",
+                        "readonlyLabel": "False",
+                        "height": "500"
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Form Grid",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "form_grid",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Extended Form Grid",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "extended_form_grid",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [
+                    {
+                        "className": "com.ibm.extendedgrid.ExtendedGrid",
+                        "properties": {
+                            "showRowNumber": "false",
+                            "disabledDelete": "false",
+                            "errorMessage": "Invalid number of rows",
+                            "deleteSubformData": "false",
+                            "pageSize": "20",
+                            "deleteMessage": "Delete row?",
+                            "label": "Grid",
+                            "enableSorting": "false",
+                            "deleteFiles": "false",
+                            "readonly": "False",
+                            "deleteGridData": "false",
+                            "disabledAdd": "false",
+                            "width": "900",
+                            "id": "field3",
+                            "abortRelatedRunningProcesses": "false",
+                            "readonlyLabel": "False",
+                            "height": "500"
+                        }
+                    },
+                    {
+                        "className": "org.joget.plugin.enterprise.AdvancedGrid",
+                        "properties": {
+                            "showRowNumber": "true",
+                            "recordPerPage": "20",
+                            "disabledDelete": "false",
+                            "errorMessage": "Invalid number of rows",
+                            "keyToSave": "9",
+                            "label": "Advanced Grid",
+                            "notEmptySpaceScroll": "false",
+                            "search": "False",
+                            "readonly": "False",
+                            "disabledAdd": "false",
+                            "hint": "Click to edit. Tab to save.",
+                            "pagingOptions": "10,20,50,100",
+                            "id": "field4"
+                        }
+                    }
+                ],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Advanced Grid",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "advanced_grid",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        }
+    ],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Feature #4 - Grids",
+        "description": "",
+        "id": "grids",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "grids"
+    }
+}
