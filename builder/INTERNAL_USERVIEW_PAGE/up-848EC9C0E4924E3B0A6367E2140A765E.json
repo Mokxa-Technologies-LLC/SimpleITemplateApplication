@@ -198,8 +198,8 @@
                         }],
                         "className": "org.joget.apps.userview.lib.component.ColumnComponent",
                         "properties": {
-                            "style-flex": "0 0 34%",
-                            "style-max-width": "34%"
+                            "style-flex": "0 0 33%",
+                            "style-max-width": "33%"
                         }
                     }
                 ],
@@ -215,7 +215,7 @@
                         },
                         {
                             "style-mobile-max-width": "",
-                            "style-max-width": "34%",
+                            "style-max-width": "33%",
                             "style-tablet-max-width": ""
                         }
                     ],
