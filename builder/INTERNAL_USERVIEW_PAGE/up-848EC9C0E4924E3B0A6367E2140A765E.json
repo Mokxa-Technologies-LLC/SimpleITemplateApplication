@@ -207,6 +207,7 @@
                 "properties": {
                     "attr-data-events-listening": [],
                     "gutter": "5px",
+                    "style-custom": "padding: 10px; /* Keep some padding for aesthetics */\n        margin: 0 auto; /* Center the container */\n        border-radius: 15px;\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\n        overflow: hidden; /* Prevent content from spilling out */",
                     "columns": [
                         {
                             "style-mobile-max-width": "",
